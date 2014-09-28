@@ -16,7 +16,7 @@
           }
 
           #map {
-            height: 60%;
+            height: 80%;
           }
 
           #mini_details{
@@ -29,6 +29,22 @@
 
           .mini-item span {
               padding: 0 20px;
+          }
+
+          .gps_ring {
+              border: 2px solid #51F1FF;
+              -webkit-border-radius: 30px;
+              border-radius: 30px;
+              height: 18px;
+              width: 18px;
+              -webkit-animation: pulsate 1s ease-out;
+              -webkit-animation-iteration-count: infinite;
+              opacity: 0.0
+          }
+          @-webkit-keyframes pulsate {
+              0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+              50% {opacity: 1.0;}
+              100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
           }
 
       </style>
@@ -46,7 +62,7 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="{{ url_for('home') }}">CD on the map</a>
+          <a class="navbar-brand" href="{{ url_for('home') }}">AfricaTown</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -86,6 +102,8 @@
         }).addTo(map);
 
         getLocation();
+
+
 
         loadThemes();
 
@@ -234,6 +252,10 @@
                     if (navigator.geolocation) {
                         navigator.geolocation.getCurrentPosition(function(position){
                             userLocation = position;
+                            //Add to map
+
+                            var myIcon = L.divIcon({className: '', html: '<img class="gps_ring" />'});
+                            L.marker([position.coords.latitude, position.coords.longitude], {icon: myIcon}).addTo(map);
                         });
                     }
             }
