@@ -26,37 +26,38 @@ def create_app():
 
 		return render_template('home.html')
 
+	@app.route('/historyList')
+	def historylist():
+		print "history basic"
+		return render_template('list.html', toList=HISTORY['results'], genre='history', target='history')
+
+	@app.route('/communityList')
+	def communitylist():
+		print "community"
+		return render_template('list.html', toList=COMMUNITY['results'], genre='community', target='community')
+
+
 	@app.route('/history')
 	def history():
-		print "history basic"
-		return render_template('list.html', toList=HISTORY['results'], genre='history')
+		print "historymap"
+		return render_template('map.html', mode='history', target='historylist')
+
 
 	@app.route('/community')
 	def community():
-		print "community"
-		return render_template('list.html', toList=COMMUNITY['results'], genre='community')
-
-
-	@app.route('/history/map')
-	def historymap():
-		print "historymap"
-		return render_template('map.html', mode='history')
-
-
-	@app.route('/community/map')
-	def communitymap():
 		print "orgmap"
-		return render_template('map.html', mode='community')
+		return render_template('map.html', mode='community', target='communitylist')
+
+	@app.route('/businessesList')
+	def businesseslist():
+		print "businesses list"
+
+		return render_template('list.html', toList=BUSINESSES['results'], genre='business', target='businesses')
 
 	@app.route('/businesses')
 	def businesses():
-		print "businesses"
-		return render_template('list.html', toList=BUSINESSES['results'], genre='business')
-
-	@app.route('/businesses/map')
-	def businessmap():
 		print "businessmap"
-		return render_template('map.html', mode='business')
+		return render_template('map.html', mode='business', target='businesseslist')
 
 	@app.route('/about')
 	def about():
@@ -88,15 +89,7 @@ def create_app():
 		return render_template('detail.html', place=out)
 
 
-
-
-
-
-
 	return app
-
-
-
 
 if __name__ == '__main__':
 

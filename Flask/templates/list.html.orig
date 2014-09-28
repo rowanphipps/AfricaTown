@@ -38,6 +38,9 @@
         </div>
       </nav>
 
+<<<<<<< HEAD
+      <ul class="no_padding_left">
+=======
       <div class="btn-group btn-group-justified">
         
         <a role="button" href="{{ url_for(target) }}" class="btn btn-default">Map</a>
@@ -47,7 +50,8 @@
         
       </div>
 
-      <ul class="no_padding_left">
+      <ul>
+>>>>>>> upstream/master
         {% for place in toList %}
         <div class="row list-group-item">
           <a href="{{ url_for('.detail',  ID=place['id'], Genre=genre)}}">
