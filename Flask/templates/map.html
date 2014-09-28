@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href={{ url_for('static', filename='bootstrap.min.css') }} rel="stylesheet">
+    <script src={{ url_for('static', filename='jquery.min.js') }}></script>
+    <script src={{ url_for('static', filename='bootstrap.min.js') }}></script>
+    <link rel="stylesheet"   href={{ url_for('static', filename='js/leaflet/leaflet.css') }}></link>
+    <title>Map</title>
+      <style>
+          body {
+              padding: 0;
+              margin: 0;
+          }
+          html, body {
+              height: 100%;
+          }
+
+          #map {
+            height: 60%;
+          }
+      </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="{{ url_for('home') }}">CD on the map</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <!-- <li class="active"><a href="#">List</a></li> -->
+            <li><a href="{{ url_for('events') }}">Events</a></li>
+            <li><a href="{{ url_for('organizations') }}">Organizations</a></li>
+            <li><a href="{{ url_for('businesses') }}">Business</a></li>
+            <li><a href="{{ url_for('history') }}">History</a></li>
+
+            <li><a href="{{ url_for('about') }}">About</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="map">
+      </div>
+
+      <!--<ul>-->
+        <!--{% for place in toList %}-->
+          <!--<script type=text/javascript>-->
+          <!--addMarker(place);-->
+          <!--</script>-->
+        <!--{% endfor %}-->
+      <!--</ul>-->
+    </div>
+    <script src={{ url_for('static', filename='js/leaflet/leaflet.js') }}></script>
+    <script type="text/javascript">
+        var map = L.map('map').setView([47.6, -122.3], 13);
+
+        L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-qfyrx5r8/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+            maxZoom: 18
+        }).addTo(map);
+
+        loadThemes();
+
+        {% if mode == 'history' %}
+            loadHistoricalLandmarks();
+        {% endif %}
+
+        {% if  mode == 'business' %}
+            loadBusinesses();
+        {% endif %}
+
+        {% if mode == 'community' %}
+            loadCommunityOrganizations();
+        {% endif %}
+
+
+        function loadThemes(){
+            loadCDBoundary();
+        }
+
+        function loadCDBoundary(){
+            //Load boundary json file
+            $.getJSON("/static/data/cd_boundary.json", function(data) {
+                L.geoJson(data).addTo(map);
+            });
+        }
+
+        function addMarker(marker){
+            //var layer =  L.layerGroup();
+            map.addLayer(L.marker([marker.geometry.location.lat, marker.geometry.location.lng]));
+        }
+
+        function loadHistoricalLandmarks(){
+            //Load the Historical Landmarks JSON file and add entries to the map.
+            var historicalLayer =  L.layerGroup();
+
+            $.getJSON("/static/data/historical_landmarks.json", function(data){
+                //got the data. Loop and add to a marker group.
+
+                $.each(data.results, function(idx, result){
+                    historicalLayer.addLayer(L.marker([result.geometry.location.lat, result.geometry.location.lng]));
+                });
+            });
+
+            historicalLayer.addTo(map);
+
+            return historicalLayer;
+
+        }
+
+        function loadBusinesses(){
+            //Load the Historical Landmarks JSON file and add entries to the map.
+            var businessLayer =  L.layerGroup();
+
+            $.getJSON("/static/data/businesses.json", function(data){
+                //got the data. Loop and add to a marker group.
+
+                $.each(data.results, function(idx, result){
+                    businessLayer.addLayer(L.marker([result.geometry.location.lat, result.geometry.location.lng]));
+                });
+            });
+
+            businessLayer.addTo(map);
+
+            return businessLayer;
+        }
+
+        function loadCommunityOrganizations(){
+            //Load the Historical Landmarks JSON file and add entries to the map.
+            var coLayer =  L.layerGroup();
+
+            $.getJSON("/static/data/community_institutions.json", function(data){
+                //got the data. Loop and add to a marker group.
+
+                $.each(data.results, function(idx, result){
+                    coLayer.addLayer(L.marker([result.geometry.location.lat, result.geometry.location.lng]));
+                });
+            });
+
+            coLayer.addTo(map);
+
+            return coLayer;
+        }
+
+    </script>
+  </body>

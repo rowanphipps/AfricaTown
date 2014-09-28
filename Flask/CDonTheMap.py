@@ -36,10 +36,27 @@ def create_app():
 		print "community"
 		return render_template('list.html', toList=COMMUNITY['results'], genre='community')
 
+
+	@app.route('/history/map')
+	def historymap():
+		print "historymap"
+		return render_template('map.html', mode='history')
+
+
+	@app.route('/community/map')
+	def communitymap():
+		print "orgmap"
+		return render_template('map.html', mode='community')
+
 	@app.route('/businesses')
 	def businesses():
 		print "businesses"
 		return render_template('list.html', toList=BUSINESSES['results'], genre='businesses')
+
+	@app.route('/businesses/map')
+	def businessmap():
+		print "businessmap"
+		return render_template('map.html', mode='business')
 
 	@app.route('/about')
 	def about():
@@ -87,5 +104,5 @@ def create_app():
 
 if __name__ == '__main__':
 
-    # app.run(debug=True)
-    create_app().run(debug=True)
+	# app.run(debug=True)
+	create_app().run(debug=True)
