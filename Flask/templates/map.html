@@ -68,10 +68,12 @@
           </button>
 
           <a class="navbar-brand" href="{{ url_for('home') }}"><img src={{ url_for('static', filename='africatown_logo_croped.png') }} height="30" ></a>
-          <p class="navbar-text">{{ mode.capitalize() }}</p>
-      </div>
 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <h3 class="navbar-text">{{ mode.capitalize() }}</h3>
+        </div>
+
+        <div class="collapse navbar-collapse nav-item" id="bs-example-navbar-collapse-1">
+
           <ul class="nav navbar-nav">
               <!-- <li class="active"><a href="#">List</a></li> -->
               <li><a href="{{ url_for('community') }}">Community</a></li>
@@ -255,8 +257,17 @@
                 if(userLocation){
                     distance = KmToMi(getDistanceFromLatLonInKm(userLocation.coords.latitude,userLocation.coords.longitude, item.geometry.location.lat,  item.geometry.location.lng));
                 }
+<<<<<<< HEAD
+                // var html = '<div class="mini-item"><div style="float:left;"><span class="mini-title">' + item.name + '</span><span class="mini-details"></span><span class="mini-distance">' + (distance ? (distance).toFixed(2) + " mi" : "") + '</span></div><div><div style="float:right;" class="item_details_link"><a href="/' + mode + '/' + item.id + '" type="button" class="btn btn-default">Details</a></div></div>';
+                // $("#mini_details").html(html);
+
+                var html = '<div class="row list-group-item"><a href="/' + mode + '/' + item.id + '"><div class="col-xs-12"><h4 class="list-text">' + item.name + '</h4><p class="list-text">' + (distance ? (distance).toFixed(2) + " mi" : "") + '</p></div></a></div>';
+=======
                 var html = '<div class="mini-item"><div style="float:left;"><span class="mini-title">' + item.name + '</span><span class="mini-distance">' + (distance ? (distance).toFixed(2) + " mi" : "") + '</span></div><div><div style="float:right;" class="item_details_link"><a href="/' + mode + '/' + item.id + '" type="button" class="btn btn-default">Details</a></div></div>';
+>>>>>>> FETCH_HEAD
                 $("#mini_details").html(html);
+
+                
             }
         }
 

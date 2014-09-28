@@ -22,10 +22,12 @@
           </button>
 
           <a class="navbar-brand" href="{{ url_for('home') }}"><img src={{ url_for('static', filename='africatown_logo_croped.png') }} height="30" ></a>
-          <p class="navbar-text">Details</p>
-      </div>
 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <h3 class="navbar-text">Details</h3>
+        </div>
+
+        <div class="collapse navbar-collapse nav-item" id="bs-example-navbar-collapse-1">
+
           <ul class="nav navbar-nav">
 
 
@@ -43,7 +45,7 @@
 
       <div class="row">
         <div class="col-xs-12">
-          <img id="detailImage" src="{{ place["image"] }}" alt="image of the place/event">
+          <img id="detailImage" src="{{ url_for('static', filename='') }}" alt="image of the place/event">
         </div>
       </div>
       <div class="row">
