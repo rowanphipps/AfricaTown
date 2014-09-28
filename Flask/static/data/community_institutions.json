@@ -1,0 +1,384 @@
+{
+  "category": "community_institutions",
+  "results" : [
+    {
+      "formatted_address" : "1107 24th Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.611872,
+          "lng" : -122.301689
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "035d8bfc1cf4b1edafedcbb1a8d53ccf1b7aa11a",
+      "name" : "Umoja PEACE Center",
+      "opening_hours" : {
+        "open_now" : false
+      },
+      "photos" : [
+        {
+          "height" : 80,
+          "html_attributions" : [],
+          "photo_reference" : "CnRmAAAAyZfNn06pkYB0UNLkyd2IiLLlsRUarj3opoMR_cj7YESqUIMb7tIM263FrA8gpQgAQgALcizU7ZSh5ipClJTAtB8_MJXyJawgf8yH7J6hA2f1uwzVfVr-ojVBvINnN-390XeDVRkjGHq8E60ko-yCLBIQXAaKg4iUUStgGX0jgtLbBhoU_m9IxZjBaNqvk_yNOdaFYArVCBQ",
+          "width" : 230
+        }
+      ],
+      "place_id" : "ChIJ-Z7TD9pqkFQRmQ-w7ya0FJI",
+      "reference" : "CoQBdAAAAGh41GBQplj4E70Y1fLMaCcSGZNH4oWKPkU39Qg4hKFYCY_lVg0ondjGPWzcqzdUlyJS5pD8W05CFRNH1GHew6WqkwkICHXbFjwzdg6HbXKEmBJ-VLp0f4YvqeltRQ9tjUsMUOHFeB0v6L6Xv8uvgmVKY9k9StS7cyrF_ioKvmfSEhDxM2lc1LEkySXHzAmK6y_eGhTWq0cRHIU8xG1Fr1rh_ACDpULAug",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2101 E Yesler Way, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.601389,
+          "lng" : -122.304509
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "b04058a28f7a9586a851ba193d6c8d75503ff847",
+      "name" : "Carolyn Downs Family Medical Center",
+      "opening_hours" : {
+        "open_now" : false
+      },
+      "photos" : [
+        {
+          "height" : 200,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAA0Givxh0kJNuzy6Joo2job_WMpyhAXTbB6oAvq9lJwR1SGxkpQYQNgne4EH-eiJPxriCcIkK8ByfM4tWTXuylg0jMt7lHXbNpj2-lOr_905zkyYypSpDx1V_mjwQHX492skzndOHBKfmHfwn9QEV-xRIQ5JmBpikZMHk3dyb2E5XlERoU-bOxFwuUS_DWLK__GGZnlOQToxA",
+          "width" : 300
+        }
+      ],
+      "place_id" : "ChIJpYOzD8JqkFQRY4kVDWwCuo8",
+      "reference" : "CpQBhQAAAHnkxDA07ZdMUFqkul0zw87w2Zx3Q2vKVjbWZ8n94enJBVvIN9C9AEsPzZQbUi3khHgH1lBzU1yITsol_ruCSsOB-URx_4aER9naFEg6vtDxgx9yYsQ8zfNVCnrCXxg0HqKg2r9gKkDNWb4KbCh9_JBWLKzitPDcvRvCJCpMIVSgL9ZIngGzAyi0tpOr4BWiGxIQM4i_UZ1mnm_gSjC4nqMyCBoU7NeftXGbJGOovTr72fYh9Zjw96A",
+      "types" : [ "hospital", "health", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2108 E Madison St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.618482,
+          "lng" : -122.303846
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "820961184f3e538cbef7504552d74dd8dac92f55",
+      "name" : "Central Area Chamber of Commerce",
+      "place_id" : "ChIJ1U8Ny9VqkFQRDnjXqAjZifM",
+      "reference" : "CpQBggAAAHlw10cereZMW2rjwy7g24kphd0pww4Gp2DNMBKKOMppZ1a-4nIj9sGO5jWNbdC26ZMsvrrCH-FPv6kqEpkgrFk_827Ku08gd84RN6P0rR-LUaCP6oHeO2wpF_8PgIwDaGV4gSG6CDxINg3u7j202yw8O7xD0RneVMmNIToEiXjQeCu4AtfYacfxD-_CWwap0xIQiwgCZRbTXchZWgdncpa5xxoU_earMMMc8IixYZqzUIOuvqkCv4g",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "116 21st Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.602183,
+          "lng" : -122.304837
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "fdff57fa3ba7c81271ec385a6cd3e90d6020eca2",
+      "name" : "Black Dollar Days Task Force",
+      "place_id" : "ChIJW_wTR8JqkFQRE0gUOV0lah0",
+      "reference" : "CoQBfgAAAGyHHJxvPXXLw4RlRhNPdI9x7j0LPXkriIriPAGkXaPZdxUVyW4982qhMY7eBO46YwtbB8wEH7IuXSgYS-yx7e3PXjKPwfGd19dQNwYvsZF1H8nOm4a_uuxw6AdRTJYjrar0ri5gnrMuziE9JsjJr9IaUEElqvzHnQ6eCB3CZ1bTEhDbQg021ciZojx3wm1MSoGwGhTpiaNVhBsZdp9MoqfXROMDVXLlaQ",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "100 23rd Ave S, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.601386,
+          "lng" : -122.301874
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "b3fe36dea9d53cee70eddbb54f243372b75aff21",
+      "name" : "Catholic Community Services",
+      "place_id" : "ChIJ3URd0elqkFQRDQ2pDsREX9U",
+      "reference" : "CoQBfQAAAEIrCFPve36yO3taevNH5Y5EAccfbgKe912xsM0EDq2DBwiX9BgLPF-6dMOiiQIn-sGB0U5FvDdPYlcysWvLvvOmQLrsn3QemkUt66cKNzfXflKyZ1WxtWPsQRLygC4YCyd1S8asV9F2p3tBIDsqsQK7-JoWzEC8AGXeMl6P-9SfEhCpD9HSb5zN5ZQiUAXVx_7bGhSaIYgNn2cD-pIx3tNxju7qLnSdug",
+      "types" : [ "health", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "119 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.60227,
+          "lng" : -122.302558
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "cbbc1837878d40bfab4a6c74783391279427aebb",
+      "name" : "Central Area Youth Association",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJEQxpYsJqkFQRIKExoj-woQI",
+      "reference" : "CoQBgAAAAOpeKdXL824GDBAax2ujlY2zdVlCQ61C22Hgu1TPqvFbSK8vDUPNtVgw0HLAqQ5rXoSOr33s0M0BjXTbyQX0gpM35JCDteXmkkKNpwmfIultGzDQAKrLbDNvmdaomkhVAaoz6EPe2p2o-EF0Iilpp52Lfjr1tm1cHqHe6qTA0cMvEhA_iAuuppDO3qkOUWTcNHkJGhSzRh4Ruu5vLNvs3x5wDw2dl0n-Gw",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2301 S Jackson St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.59846,
+          "lng" : -122.302003
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "3944adb3ca11e37d345a958eb6ac27985e4a8bff",
+      "name" : "Multimedia Resource Training",
+      "place_id" : "ChIJn_vTfelqkFQR3-LpXe1XCUc",
+      "reference" : "CoQBfQAAAMO6K8DTcXhlY45AmJISD9ITWsyV5vKdTmYw7G5hK5VCfrbqPCSV5NRmugHkCeymyF84oyyuIuvTW5xHYrIdtSbFoYGVH54Dlc_FLPJX2ewEFqKhACkKNKDe7m2uw4CMekhRojn0DHUqAoB7EQmqL63svypwYIRXQdSKt0uzOXMcEhD-6-6Sz7rkRMb3TnkaJkbGGhRjR-vktcFKonEwi5FgXTDy1R7Nkw",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1528 Valentine Pl S, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.588496,
+          "lng" : -122.307177
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "f4ff9916d643f86b8a36e2f188e8d54befe94f26",
+      "name" : "Eritrean Association",
+      "place_id" : "ChIJTcaq9Y1qkFQRm1a9nYtLM6s",
+      "reference" : "CoQBdgAAAPmP-RW1vOhcG18wlyV6TOGIhekJl58Q6Lk0-hnF3MJhqAhfCFTspVBV6tJF0zgO84FKvBmi4q1F6eH_xB0YlA02OECs3tQOdBXnH-V99y-TLLhmHU_XU9gLx3eEqYGLWe8WvNE6KL0Qpifq3dBVhgUv6LJDLNbhOagu6B23DeNIEhCeu-XctcV9-LuP1c8fwsGEGhSXdMjdE0YSF3FsXdwZ5iAVq-dNrw",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2120 S Jackson St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.59958,
+          "lng" : -122.303867
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "4926adcd2a452178a976c000dcd38bae2051f9cb",
+      "name" : "Seattle Vocational Institute",
+      "place_id" : "ChIJ7Q-zI-pqkFQR8m-cbjydzig",
+      "reference" : "CoQBfgAAAFj1W_eO9d_Ruv0qf21z4Shd5dgR7CnPYwJTiEkMdEZmCQ841sxbfln3GyVlLYaOUmli4N-H7wDlqdm2UE7IQEBJC1yTSNm6yIAzJwdPiQ7sv6U4wwxLkiUKJVUzkP5z2xU0IEZZ79Wv_vD0ccTzhTEElXzdr54UiuKSeqbL1UM-EhDsYLBSE4DkxVZsKFmVVzFLGhT3r9OQyWh299Bf6JQcV1IUif6u_A",
+      "types" : [ "school", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1902 S Main St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.600153,
+          "lng" : -122.307354
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "90956d3209a568240e6703fa789dc831423cedc2",
+      "name" : "Pratt Fine Arts Center",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 290,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAAXizrQltN0CNCVQy0O11k-MDhHyVP8saNL1cKzMhj7t0SwQvjZ11-tEbiZTk9H0Dhi2bECRf9EkpkDXJcGyUDZpsMNQg9RC4_a6iRy99sW9sGlwnFNqY4LC3mCFYRpwFdthz-i7HO7EgjRIYjQ20ZFhIQI5BicwvDVvU8wFH--15bWhoUD9YV0ewWsxKvKeqIY6Nh7LHY6y4",
+          "width" : 210
+        }
+      ],
+      "place_id" : "ChIJVyYy38FqkFQRNN9jcyLqR8o",
+      "reference" : "CoQBeAAAACvkWXrO9qzrAyYjATKlprwPwJtudq_c0R8LERWuqaNwYvOe6zC_BJXhqnvv-wxVVKkvUkCio4XDnEZhzvu4eDq5nTSXJImR5NEslJs6Kz5AxaFC84vs6cKvz9gX-eFJNFyx0k7XUVo0-NTzr9ayYtwu6bLkm4HCCB9kGPou8JAxEhAyxPa3LQAQPjEADxkrHzjhGhTl8mDjfqOMBqZpyq4QzuChuAkLzw",
+      "types" : [ "school", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "153 14th Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.602876,
+          "lng" : -122.314393
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "3c561d59db9e572a6cba825118e7218a036fb700",
+      "name" : "Washington Hall",
+      "opening_hours" : {
+        "open_now" : false
+      },
+      "place_id" : "ChIJkZsVy8BqkFQRbpES3bSRTHI",
+      "reference" : "CnRwAAAA6wctdALXBQRE6FWXEJqPnf-iZHkh6uJQTymvPrx89VeoaQN2p8vnxd13cY_jSKWw2e4_05HeShuh-vnPQMgCKo9--AI6KBiSPpmJjcjPTQJSAkBmJcXj4HDwI5oeObnz5qvud3m44QKMb-LRHCLG3xIQNFeCja0AfveKxKmgGiu-vRoUOoscchN8ZmGNTFrcezbS1lrrHTI",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "124 21st Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.60249,
+          "lng" : -122.304707
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "bc3f254fe145211679623d117f98944861e49652",
+      "name" : "New Hope Misssionary Baptist Church",
+      "opening_hours" : {
+        "open_now" : false
+      },
+      "place_id" : "ChIJW_wTR8JqkFQR_R78aemdvME",
+      "reference" : "CpQBhQAAAD-5-1hp9ABF7XuxWFWTCilf_-gbDaRX3wRCjT9FG-0kCwTM6G5QLflCZu8y6hLAJvWXgMJThGhMJ_ViH99M11Rk2-2Z1P7zt9p2HubCe3lNx3Gsb6XiZWwRHOFMafX1TNaIiX1Q7RnYAQ0DlaVYM4QLzn5D62iLAnp-JF2r7LmWLwZMSq5caVikvgQgi3BrQhIQHK9e-v-Bn11VQkBUElOaJBoUwAihK7lH0HjMC2R1WXlfR-c2uTk",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2801 S Jackson St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.599028,
+          "lng" : -122.295896
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "2ac2ca53c61f41c9288a43ab4dc659094961ea77",
+      "name" : "Tabernacle Missionary Baptist",
+      "place_id" : "ChIJa_A0x-hqkFQRaDIj6gqgXrk",
+      "reference" : "CoQBfwAAAJ-tcf3J3uIo_gofplHNYfJyzSB3qWtnuMsJyIr7NXEBO1Urk69_mcGK6S8M9RhXl6RM_oykdslZp-Mtl3XE9qvH3bGzhNPG41svFyuaU3GP84Am3t9_G0Xi1dsR1f6DKp2Gnjc8gEn1qgEBh__ukcriEXV3yaE75j9eORTItUrwEhBgzobpK073Jo4XaX34lxIOGhQZggC7DJlr-OLXHObtCq8JBsdQwA",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1412 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.613536,
+          "lng" : -122.302433
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "24b12a7681de8881186f81eadcb306a4ef7ea852",
+      "name" : "Mt Calvary Christian Center",
+      "place_id" : "ChIJsS_YStdqkFQR_8tqIG8qw18",
+      "reference" : "CoQBfQAAADC_YtMuQpsTql0AWuoI-Kl34EFji6Jwscep3eih_TQJMYyRDQAQbQjlezGGyGGVevIBX3Gx4xfSeESMub-QnX01i9_pysP_kbnLP3g2o4RBOqhxkgruoC9P_Wa3Tw68Sgq-78w05os9k7z7x82Pp9a5Cu3REh261ZpLxAxsy9pqEhAVlN__39190yqxicFxDaoqGhTzZhQscqbLnNdEvk_cjw32xwdCBA",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2425 S Jackson St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.599166,
+          "lng" : -122.300168
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "538db10f2e73f7ab788f17be73699a92c8529f30",
+      "name" : "Greater Mt Baker Baptist Church",
+      "place_id" : "ChIJ8fcTCelqkFQRyKDvjvFQnds",
+      "reference" : "CpQBgQAAAL23a28APfqohm9cHtjYwsYDIrrcGlDVe6bpUSC-iHKCJNTP8DW29HaR-eHN7iFior1irSEnInh25CjCm3pOY2U6mgAV6ZvCaDSugQoDqZKHg6xurJMDsAGIO9u8KaFPeuiMdJpraijEgKn6HHWHrXHvLRpTDA-xB0ZwEothd91yEVHR5fIJndgqOSfboZ3O3BIQqXg5sj9XR6CQJp85jxO5fRoUYjPJHOw8FA8Hv0SigN_Qv4MrLJc",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1716 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.617002,
+          "lng" : -122.302422
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "3caed630349dab0425c0b9ceb212c6a19de8bfcb",
+      "name" : "Ebenezer AME Zion Church",
+      "place_id" : "ChIJ5YNNiNZqkFQR7mlc-jRfALY",
+      "reference" : "CoQBegAAAAdeNdCedeDWQIJd3PJ2OVJMpCp5YfOIXGHDRG3r3TA-TakZ-tr8F7rXHSI4KMJwCtJ5-7JhCMNYWvy56ou9K3rPXV1369mq5oGQkIxP6wa8yPuLWRnImqp5o592MT_CBA3uANMwabwRaeFBxdkO6hFvM8BngjVFv4NW9FUpg7W2EhD01AifHdLTL0lubVhwE4Y8GhR9GZL4f_fn8uY3l4I-ZREXUK7zLg",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "126 15th Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.602535,
+          "lng" : -122.312455
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "b67cfce9c49bb7f3d3e3e5fc2f1c7eff073c42b8",
+      "name" : "Goodwill Missionary Baptist Church",
+      "place_id" : "ChIJAbSV3sBqkFQR8-6sz-l59rU",
+      "reference" : "CpQBhQAAABHEpt1zGnUin7DUj-Q9ZJAEYdO6AqzfohxbBHHmgjJsU_HL5qlK4DGMfAV5OEuVlAG8wUj32zXnLwyOA44j1HV-lf821fB5xiyFMzfEZmaBN1fmG8LIxCeAGHdL2bNj3Dm1w3vDGVcMaVFcp4NPlfvJ9rYmV6amFo-6HwOxID3jHQeRnCjKLXT9wb0Nn5F8hhIQQF_Bcy0PYyJJJc7m6m7doBoUBcQk2_pPBTkfN8ML7OOLH13cXBI",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "800 28th Ave S, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.595437,
+          "lng" : -122.29597
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "04fbffa9bbe20b6da59c1bfbb8fd2e88b3e7f99e",
+      "name" : "Walker Chapel AME Church",
+      "place_id" : "ChIJ50DC9O5qkFQRED4lrTvxkdg",
+      "reference" : "CoQBewAAAG3PR8PPOevwMELYjGMYKCf8JXwilWP_903R9dZhFPT8juHXbQPHv9XCM8HcraLV42DNAQH3IHnnHybuDhStbFZbJ-TyKp5vTbo6D7LFSaHJv18r3BSLzJRt7AhYyFYj0_bODqxgBQjlwnPr3VjC5dhMianUnEIq9GwNQo-UE-7XEhBIsiVtYEcLLY4PaqHaLUkmGhT1-7oZdatm7e-nd7DLIAf5434NNA",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "172 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.603358,
+          "lng" : -122.302259
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "459451c9ac5472bfd6ee667387966f5017d94d1b",
+      "name" : "Curry Temple CME Church",
+      "place_id" : "ChIJYxsI78JqkFQRyA_RBJQSpBU",
+      "reference" : "CoQBeQAAAKIXY-Ao7OYs6JnmLruAUH5F2EqcQ9tVs_iPCGhJbbPGjU7Q6WDoyW5gNjxiWgr2_y7wUKCgim7ckoMNDuSBGR0eh28PmGZs8l_8n_fNkhSa3RcyhgPqkazu38_ZKiBRH4_IR2_yrWQ1eMsbpp571firLQQlfnUSxvZ5OOp0-IuTEhAWZvlawoLz_ECeFqUxKpyHGhTsoqJ6h4YNjbKNwafU1alzxcdmoA",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "159 24th Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.602814,
+          "lng" : -122.301305
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "115b5d4fd26d5585076b325d9f5a7869893703ca",
+      "name" : "Peoples Institutional Baptist",
+      "place_id" : "ChIJK363lcJqkFQRzR0yOVLuc4s",
+      "reference" : "CoQBfwAAAJ1MmUhU4NC8mZPwvgn_oGchi7XqwCR24V5UaQ_YRp0qp5fUHsg8yO82edciJXYtL989xxXm0IwBfSq73WarKIsdVj1c27RITrd0-RSmyAMR6ilj9XXZPalfu2YDj9MvNs4HkNsLVHkcJrAb5cos9Q-DkVWKQ5knz6qCzWXJDSRnEhCCX2E4_peR8zq-oHOi7IvmGhR308bha13F-9-lKcPnkM4Fq5AC1g",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "801 25th Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.609328,
+          "lng" : -122.300509
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "c3ba670b506123bea66de989c5677d4faa2aa3e4",
+      "name" : "Emerald City SDA Church",
+      "place_id" : "ChIJ-yQsu9tqkFQRddPkyr1jcyI",
+      "reference" : "CoQBeQAAAHZrCeDDWljgWMlultC0zgpCEKGGUDGwBonSVd1SDnReS5cAX_FS88cOjhNMBnXpZ-V1dJ0TCU1wh9D8i80V3GmR7dPdBpZ2YuHrddpQtkV191SP1_QbUmPmcqWRCX8DOnMzN-U7A_T_66QtYAISyJB-i2DYVW87ChKL-btP3tq-EhAL0hpm_45ERYk7r0HPGbL9GhTlozLq_QERtD32w_vk5EchF-tO6w",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    }
+
+
+  ]
+}
