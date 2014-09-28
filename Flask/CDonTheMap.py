@@ -26,35 +26,35 @@ def create_app():
 
 		return render_template('home.html')
 
-	@app.route('/history')
-	def history():
+	@app.route('/history/list')
+	def historylist():
 		print "history basic"
 		return render_template('list.html', toList=HISTORY['results'], genre='history')
 
-	@app.route('/community')
-	def community():
+	@app.route('/community/list')
+	def communitylist():
 		print "community"
 		return render_template('list.html', toList=COMMUNITY['results'], genre='community')
 
 
-	@app.route('/history/map')
-	def historymap():
+	@app.route('/history')
+	def history():
 		print "historymap"
 		return render_template('map.html', mode='history')
 
 
-	@app.route('/community/map')
-	def communitymap():
+	@app.route('/community')
+	def community():
 		print "orgmap"
 		return render_template('map.html', mode='community')
 
-	@app.route('/businesses')
-	def businesses():
+	@app.route('/businesses/list')
+	def businesseslist():
 		print "businesses"
 		return render_template('list.html', toList=BUSINESSES['results'], genre='business')
 
-	@app.route('/businesses/map')
-	def businessmap():
+	@app.route('/businesses')
+	def businesses():
 		print "businessmap"
 		return render_template('map.html', mode='business')
 
@@ -88,15 +88,7 @@ def create_app():
 		return render_template('detail.html', place=out)
 
 
-
-
-
-
-
 	return app
-
-
-
 
 if __name__ == '__main__':
 
