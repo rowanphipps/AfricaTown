@@ -31,15 +31,32 @@ def create_app():
 		print "events"
 		return render_template('list.html', toList=HISTORY['results'])
 
+
+	@app.route('/history/map')
+	def historymap():
+		print "historymap"
+		return render_template('map.html', mode='history')
+
+
 	@app.route('/organizations')
 	def organizations():
 		print "organizations"
 		return render_template('index.html')
 
+	@app.route('/organizations/map')
+	def orgmap():
+		print "orgmap"
+		return render_template('map.html', mode='community')
+
 	@app.route('/businesses')
 	def businesses():
 		print "businesses"
 		return render_template('index.html')
+
+	@app.route('/businesses/map')
+	def businessmap():
+		print "businessmap"
+		return render_template('map.html', mode='business')
 
 	@app.route('/about')
 	def about():
@@ -68,5 +85,5 @@ def create_app():
 
 if __name__ == '__main__':
 
-    # app.run(debug=True)
-    create_app().run(debug=True)
+	# app.run(debug=True)
+	create_app().run(debug=True)

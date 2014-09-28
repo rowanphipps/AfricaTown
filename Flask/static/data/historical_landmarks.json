@@ -1,0 +1,324 @@
+{
+  "category": "historical_landmarks",
+  "results" : [
+    {
+      "formatted_address" : "400 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.605412,
+          "lng" : -122.301628
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "0933446ab79ec4df03a4699b03f478d83e81a7e7",
+      "name" : "Garfield High School",
+      "place_id" : "ChIJaztWtlYUkFQRkScCEvdkRyk",
+      "rating" : 4.4,
+      "reference" : "CoQBdQAAAJXF7qpybMtcNfBWLNqm09BR6zm0NR3fM6QZXg9eXxEP4UVWVmBN4cnTx1JO4_8xzccK2COWgcA9GDxf6ZmMO06rexOH-fb92CUy3lDaN8x41JNuHasq7BfAAOYiKEW_p88JgnPNKvzP5dZeuxNRwWkm4jq356ZkdLgj968tWJXrEhDUZNp_jWJyFUYhcITEBjjnGhRib1EPWtUrxwlhCodFhmylGh1jaA",
+      "types" : [ "school", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1634 19th Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.616212,
+          "lng" : -122.306811
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "f63f82d3a8e1a8463cf56181ccd3b302f8e07094",
+      "name" : "Mt Zion Baptist Church",
+      "place_id" : "ChIJGdtdVtFqkFQRvY0lpG1TZ3k",
+      "reference" : "CoQBeAAAADns1dnw-R0LCsx8Gs9nN7ef74BuF0j8G1ydMNKJ6N_9axst7yUpU3Shrtjl4MU4-QW-P1tKS63DRIHsn1UBADRA3-MgPb6QM4Nv7uqv1MYUSxH9QNmo1sXg1-7Dp-gJ-SMVHqJIyfE9w28Fj8i4-6pPTkeUlV7T-kp0NqHmxxSDEhD4Z3yIcJOKjmlR-Yhs5DXHGhTGb92SJGr3aiSBevJmCVAqBicArg",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1522 14th Avenue, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.614819,
+          "lng" : -122.31391
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+      "id" : "122cc15af254218bfe1375239d56f352d74af6d6",
+      "name" : "First A.M.E. Church",
+      "opening_hours" : {
+        "open_now" : false
+      },
+      "place_id" : "ChIJ--NSkM1qkFQRS_pvYMMzOnw",
+      "reference" : "CoQBdAAAAKNzM6poI8avwKBe__KzvFe7Xs9CMgD713OlzeDPuqMggZlULNxZOdZMnwf-E0Xy7pXVJMuC7g8Rq1hlmGFHWnMi5HLwXL_Cerr-tVnwGuQVTUTM0psplUZTqxpg1-IkKXJei5RaLAe9AdRlMBY2KsuWiHns_a6L7yddLEVSivrTEhBfN4vEDZ_yG2WPZ_Z9bk_tGhR_ulVFpi08PsfeDbdN0YuhtHXYiQ",
+      "types" : [ "church", "place_of_worship", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "352 Martin Luther King Jr Way, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.60519,
+          "lng" : -122.296339
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "7ce8702b9d1a28741569939ef22073c84eaa9304",
+      "name" : "Powell Barnett Park",
+      "opening_hours" : {
+        "open_now" : false
+      },
+      "photos" : [
+        {
+          "height" : 972,
+          "html_attributions" : [
+            "\u003ca href=\"https://plus.google.com/104242413492612053411\"\u003eTimothy Snyder\u003c/a\u003e"
+          ],
+          "photo_reference" : "CoQBdQAAAOF_kx7_td2A7PuTiNd9IrKYwiY-duOU06LRs0dXKnDkU0YP7m4G2yO2GBGJILYYJq12TD0vR9jj8p-dcqw9Rg0r0tHWzzdX5uAgLZCbK9-WcAulbD8t7V37NvG7n-gaJnuMlLiWRUalK8y0Bn0Ul2dYaXKg_Fb1BaoKtxlzv5yDEhBzy2wvOjtWoJuEzhCseGt5GhQUQaEvX5aPRmuTn89WXHn4wZR-lg",
+          "width" : 1296
+        }
+      ],
+      "place_id" : "ChIJ1cCZpt1qkFQR3AeCprqtAOU",
+      "reference" : "CoQBdgAAAOAA_xUGV-zKtq7QH06tfBhHuhKd772PJKFROyrfxaU_AoYHRqW9X58dcwSjIjV_UEZEn5UmqVGzvLwtA_emVCCAPOATXqbWecNOl287SmoyDQhHvHO38MAODDZZZBgSM-5ij-Uqa9RXElsHShAEgn5lizGUWvvCYBlAnptEt4UKEhD3fCcUf4cmIilBbEa0gX_yGhSIL6f13edX0GELXJCF0uxr5qRitg",
+      "types" : [ "park", "establishment" ]
+    },
+
+
+    {
+      "formatted_address" : "1814 30th Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.618002,
+          "lng" : -122.292893
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "cb85b6781e0a4030fe2c0c9504afa09c4d8d83bf",
+      "name" : "William Grose Park",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJjf5o_ShrkFQRiSaZRdYA_kI",
+      "reference" : "CoQBcwAAAA0-ppAZJJb9yFuHsl5YhjiDVnk5wbm9kQCzgAToVHF0Yn7ziWeYIkAPrEnLPErHkfTDw9FSC4HN8UpmbEmuFCkZiMb8zryQRUYZw4PEVSpqpDGT9sUBtswySkLvIjBCWNFaCcE4mHYuZJrwXFVok73J5_90dD0zKB81cRaWU423EhDgz-M5mjrzkgc6akbIq5tPGhRh7csBs7wP8GOSwXmvBYC95_BRKQ",
+      "types" : [ "park", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2100 S Jackson St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.601129,
+          "lng" : -122.304074
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "399086bbeb1aba00db906336db08556a4a4ce056",
+      "name" : "Dr. Blanche S. Lavizzo Park",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJgc1JCMJqkFQRC96bosfobO0",
+      "reference" : "CoQBfQAAAOdkGo4U_xWoK0GI_-Lzxq4tdCG8WTmHltQM7DWVU9ZTJEzLiKr5cBiEJAG72r3RYM4Sr1i4vAsY9Cgqs2sFKGdD6vuuA6ga0iaS5OVpDA4elbDFrHJSO9fx3wvUKM3JbWPLUoYaKu7qqZ16OfykgGj4KNp7DssjRMOQScfaPy7DEhBJW1KrcZj3GjoMJIzL25IrGhR_zEl94U5OYzmuYb62BDAT_8GOow",
+      "types" : [ "park", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2400 S Massachusetts St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.589453,
+          "lng" : -122.300658
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "f26fda0ea3e39a395c5c4dd5a172d4c3accf2c1d",
+      "name" : "Jimi Hendrix Park",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJjVy7N41qkFQRPeztYGKxNwk",
+      "reference" : "CoQBcgAAAOUnDC85grRjxdJ2fBsxGpgaXt_2N7Jyfw9FTglLTBUGqRK3s3utoWhWCdmtn3KyVo7kJGqSQp6soIRvfAX7i0PBJ9XWqhWnR6VjWDDxvNQ9fGc3QHkDal36UjC9V-XVQHzD7U4YU4kd167gfQGtetm2yDFAYBWcxUO5eWI2sCptEhAXdFMDTmuspR_94M_bp_aAGhSnReExp6vTLsxl3RtA2g2EtZ9ITg",
+      "types" : [ "park", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1400 Martin Luther King Jr Way S, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.589807,
+          "lng" : -122.297857
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "1102c5d9b2a789acb615c8ad64b6e6299ff34674",
+      "name" : "Sam Smith Park",
+      "place_id" : "ChIJxdcA5vJqkFQRuzmLIuK8u_8",
+      "reference" : "CnRwAAAABWm0Ui3SsyjHF-D2he4ls7chDOTeY2peJLvLUc5kmyNBIDGir3CSX1JGJ3ldtzWz2bhECXamZe8NR8dplC3HMnWXRsJnCV09tLGCtKan4yP3L-cvjHqqgC7LNPkbwq1v903AZhIIpOyMXDmijr9dwBIQ39Agvqn1-LjOpINa_bLLuBoU16_RFDrFWbUts128wj-Nz7NHTz4",
+      "types" : [ "park", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "330 28th Ave S, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.599593,
+          "lng" : -122.295902
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "e7ed3fa30433741669b3c1c234fc60f4b2a884bb",
+      "name" : "Flo Ware Park",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJRUyAluhqkFQRMpNJDtOO1Mo",
+      "reference" : "CnRwAAAAdIVBBNg6m7z0TDdHwQ2jfIrqwuvqEc7CO2QzDIqb_lHAwJ4S-3vjfWGS8ATJjVpx7n1ay65B9eNRx8Rsmw-TemK_gIc9IrQja0jkByK7l_6Udq5YyzsbNWn3fEP55TmdN5eQzrninnlhoQFZqGo-URIQb38iidFeHYDCV0DDQBiNmhoU9nEwKrXhM-U4getZbbv8pW6d6OA",
+      "types" : [ "park", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "104 17th Ave S, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.601409,
+          "lng" : -122.309858
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "461df12af92e5ad19f91eaccc5b77df31c62b56a",
+      "name" : "Langston Hughes Performing Arts Institute",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 341,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAAHmZS4BmqncDwr6U_o1pJZgaAnXZjSjKCC_VZ9v1WE9UGvtXlFuXg-WQTgsXpwoDhuKsWYhbEwieqEZeVnDJvpBOzFNWVcC6zIdkb4w59xEXeb3dSRB7BMWk81KPRF8r95j56K2ywZ6l1S8jtyiVoOhIQPpqdL_N0b-11BZ8W8dwi8xoU-AD6DEwY0kWBhjw_MKLcd-8t71M",
+          "width" : 512
+        }
+      ],
+      "place_id" : "ChIJAfzWqcFqkFQRcBCmjuB4HcU",
+      "reference" : "CpQBjAAAAJXiNPbDT1TMpj-y4Vi3Bj-F_8HJdW19OCb4TJXw9p1zG2c9viiMyBv5G9q1OGlXROxRKalgS8Q2tG4FxivSgmWz9A4CTTvOXAvf2rnx30r-fAlyUcgXaumPIZNfTFTZ29JcvVC_ruPzZPVqaZDRUT9j6dQ-6zwbyw8tE2NoRjzOn_sZKOQR1Vh3vrUWjJLD2hIQNodZsNaCV-Rgs5qG6NKo3xoUNIF5S309Qc4LrEUse1OJOKjS2qU",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1902 S Main St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.600153,
+          "lng" : -122.307354
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "90956d3209a568240e6703fa789dc831423cedc2",
+      "name" : "Pratt Fine Arts Center",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 290,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAAH82e8MnWjvUbxmF_I51D20x1vz68CsfkEojIfJ3J-7v0FnjvTomMXi_UC9yP77PHUxb7tOFYR9uVVwwttdQ6hUwaWPwDkRbBG_GiSgn6MMvNokrDXEiYliiNHQ8Y8xTUynkafJLOp0HGeW0bCPG94hIQrpJMlEfd03z_yW9wK0cQJRoUaaJDzGluKS7UWMWwaX0odlDyhBU",
+          "width" : 210
+        }
+      ],
+      "place_id" : "ChIJVyYy38FqkFQRNN9jcyLqR8o",
+      "reference" : "CoQBeQAAAKRcit50Sd-WK_09ubS7ivfzOQaT41APCp-jEJrENe14ZlGrIH8ZEZxKecdfjfNxBT_8Uf-qthzQzLCCN6qEP2gSYjAGsgTdXnSfBxk0q3fsorjLgYIHfwrPvMyg6tNIsOE4xgjAhMFSIpKUkrCikWx7lrSnfurVVUF-vJDGamyGEhDXC3QwbG169iPtZXcVVIxEGhRVZ6OLw8Tjq1iZZJbpXHxg00TSyg",
+      "types" : [ "school", "establishment" ]
+    },
+
+
+    {
+      "formatted_address" : "500 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.606707,
+          "lng" : -122.302376
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "82d26a4ccfc1913ba77b473d472b7eb489678b1e",
+      "name" : "Medgar Evers Pool",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJLZQqoNxqkFQRZKb6ngZ0MpU",
+      "reference" : "CoQBcwAAALBVt0LJYbaFnDS7f3zaPtG3fUG42owFEKefjuzJs1GtqDUryq36sHvC_dKaOmshXJpUbJqEJiw7ldhy9RvGaIgAQivtJNNw6LCR3gzRWr2JaCQE3agl0WxYYW2JniJ3xr2s3GDiAkQHvQ30CpeKoc-YYkhBjqHPR8S1KsOir2BSEhAlrmbLvp4W9nhGPUqAxQeJGhSssBiM0sUjaZyYZv1ivdkkBqUW1g",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "6725 45th Ave S, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.542082,
+          "lng" : -122.277172
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "c318fe2a737e61e1e14d36bd66419c837e854767",
+      "name" : "Martin Luther King Jr Elementary School",
+      "place_id" : "ChIJz5lWHGtBkFQR6fdIceLKFjo",
+      "reference" : "CpQBiAAAANf3H453Fd8jkBWNlTGLzKbAjf1LYY-BNLXHLOArZdKP5gxHeFrUY7vAlgzkFpRe7Zu0heNtRfgJMu46GUcriEmAeQRH4xRDbfywwlEvCLRnF_YWFIjtiK-x4rRU3Phq-NBjnXpen6jq3u8x0EG65j1jXYV6shvn3mCBh2-iL06Q6z5rXSgZk0eYwLk4Db-gGBIQFnPpNOLM2ym4mC6UWI5XshoUbfB-kbzDXksrMnz4xEyANACvbyo",
+      "types" : [ "school", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2300 E Yesler Way, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.601983,
+          "lng" : -122.301863
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/library-71.png",
+      "id" : "c82c0a4be3978d56a6b319a07843605b69e8b98f",
+      "name" : "Douglass-Truth Library",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJz7j3fcJqkFQR4IjrnHLzv74",
+      "rating" : 4.2,
+      "reference" : "CoQBeQAAAHRgY0VYWhi4W3vSsqEtxnBojWpi2-002th84lB4ASlbpQSmQTnm7xBqW2s9_eqCsNxbssvLNq4QhNfJJWrrf1154S5wy0UwfYCP-y9_axkRdrQWIiZHk_dfvv3t_-KSJJyW0F9IXfM3LI0uKErlrLVpsDUxDg4-OXCcEWSA3mDQEhAylEE2P0m98Rb7S7Y15eL-GhQW4qGV2Ysww5kJRXUFPWQJUTYVBA",
+      "types" : [ "library", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2300 S Massachusetts St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.589155,
+          "lng" : -122.301823
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id" : "8f4787b60a97ec6b598367223187c9a4c342fc18",
+      "name" : "Northwest African American Museum",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJ_VRwPo1qkFQR1nZ0fF7mPGQ",
+      "reference" : "CpQBgwAAADmotdYLEgCzsBEWS1QawoML6LdhpEgEiyHVPWTXYwE70CyKqrl166Z3yoU4gS5rlcBGcM6gpXM6DrEo4SO_AJAhqDiZJ_i17pY5KrNZjjMrN0I2vbm7TXSKc72nNAVvdr1Jb2Aue8oRmybr76x4sEVtJ4Ndzu5mVtyO_3MtBOQuuEPcUviAIPq8n3zMl45RhBIQac1CxMg_7X-om99lXiEB3BoU311FXEstwjCOOxB1NBUfw7DFcIw",
+      "types" : [ "museum", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.617348,
+          "lng" : -122.300955
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "11d074293a33d0a7e2391d6fcf780ba2b4f26604",
+      "name" : "Homer Harris Park",
+      "place_id" : "ChIJiWDlbtZqkFQR5v6ud6Vo33c",
+      "reference" : "CoQBcwAAAMLTHLzj38P8fUywl9E2WESWzyPAw11T8NesCeiaDPjos2WjUcsIjtDZDjxrM914Gh8mdKFF0CoNQ-_-GyQQCvaaWf9-zdtPkvgrBC2O0nqrdBl0K3DvoRv-3p5gfBZcCwdqpU8yqKr86tmmpLU513teM9rEsLvZilNA9rs3GpRcEhDyeFdnE4ivHmjm03a3lUctGhS35naOdBtlMllvDHVMkgXLuDOBBA",
+      "types" : [ "park", "establishment" ]
+    }
+
+  ]
+}

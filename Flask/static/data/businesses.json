@@ -1,0 +1,488 @@
+{
+  "category": "businesses",
+  "results" : [
+    {
+      "formatted_address" : "501 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.606324,
+          "lng" : -122.303002
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "4012aa15ef3d859a73aa603015bb9ff862dee9c0",
+      "name" : "Ezell's Famous Chicken",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 1043,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAAJ2sRijsEBsWbtLknPhilNitdx6EFvMPBI_wLijCePcguL0KzxHT_362i1TE2KrZCXbR2yOLZizfdlJqMfi6C6AtKeNnRvZwB2tmlJQnV5ChS9uaoySPltW_XXgq47Nqw6FXr_uMWWwttujnzpWZVeRIQcgWpjA8YoNu-dTL_Ly_pKhoUCYeoeXGTlQAWLNVHUvhV9iKSSEE",
+          "width" : 1278
+        }
+      ],
+      "place_id" : "ChIJ6fRmU8NqkFQRN6dMtto9jUE",
+      "price_level" : 1,
+      "rating" : 4,
+      "reference" : "CoQBeAAAAEYJftM4Axv4g13hdR8eJ6Qqr4dq_-YkJzq9xgfexRJw3cbDt20SkULmF7Nis8ZmspbSMICqo5uWTrWmX9aEPjtyayH6_F4kkX7SPSnzaKMjCbDA5glmQqg2jAdAOM6tGKSDKGvpIs1GdTicc2QAvqXAAwVPEQ77CG2dgAtWnzDxEhBkTgF-JW1x_gjKiC_Rdr53GhTPARyk5a9NnHIET2lhIpeMT5czYQ",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+    {
+      "formatted_address" : "602 19th Ave E, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.62456,
+          "lng" : -122.307094
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "7e941ce36122fedb6d66b64a83a184ffa7f5db9b",
+      "name" : "Kingfish Cafe",
+      "opening_hours" : {
+        "open_now" : false
+      },
+      "photos" : [
+        {
+          "height" : 1365,
+          "html_attributions" : [ "\u003ca href=\"https://plus.google.com/104111246635874032234\"\u003eZAGAT\u003c/a\u003e" ],
+          "photo_reference" : "CpQBhwAAACcbzSL13YuYjTxhnN-gkAFyNJEru9KeYwMYVYg_RvzZ8TLe9gUcb1wIbGlr0YoG19gsEjN9TDtbvrpRKiubFHKPy4EM6Bz-PMWreTk_jMkULg-1u21CG0QFjoVmR6APYyGVznYWbHTGrutoY2p_2DZ0rJ2hxkye5NLV1wxZDNtJhbwmhNHgWXUURFGcxqThRhIQt4r53X1NbVnV33sUbaSvSBoUz8bYcAfgLSaxxSTjstI5E8csDaQ",
+          "width" : 2048
+        }
+      ],
+      "place_id" : "ChIJVfDefyoVkFQRIr2kS4I-A_4",
+      "price_level" : 2,
+      "rating" : 4.1,
+      "reference" : "CnRvAAAAAQGG9jcjI9KCjbIRdzErklbocFwxnREMCn0r4GbT1KO4om6YH3jabS_fC7GGY4aYcn2JdledWBQW26-CiIcT-4OhYZFEMVbtITd_y09bcLmEtF3wXIHkgMJ0kD1O77DFd9KR98ckE2vQ4fr9t4vm3hIQh4b19q3AMosO9pINUGW_EhoUVFSdOlXrPjdkD383Ltu6Q50M-xI",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+    {
+      "formatted_address" : "1816 E Yesler Way, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.601807,
+          "lng" : -122.308219
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "6f6321321d0426ce9b3a2bceb80c0789fc45f5d3",
+      "name" : "R&L Home of Good Bar-B-Que",
+      "place_id" : "ChIJ0wCBmcFqkFQRrloBiopM_RQ",
+      "price_level" : 2,
+      "rating" : 3.8,
+      "reference" : "CoQBfAAAAO5YbVrbSDK4w84rRCcl51BFXuwDksCtvEK1r-u9kVeicWz1ZwhDWBCup6WN6ANDLLRyYZ3ZlkRVFyVA_xfhve8rwFdkemqtdi93SQU_eJMnRz4TAljPBknLhHvMphEcYiMtqpSJL58eoxk87Y_oH8BulNCTITbkzWSpudaBGIudEhBjCf-SCIouAziPTvZSxK9iGhRHMzogSBTboPKGyHQnIjNVXv5Zwg",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+    {
+      "formatted_address" : "2509 E Cherry St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.607813,
+          "lng" : -122.299494
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "91798e944f66a799710c4229734ae7ea2526f4f1",
+      "name" : "The Barbeque Pit",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 540,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAA8es-d0LfF610tEc-P8fgJWopfnJqa1VbCdBnanRrWfyUimlNu6_sEvHLslGhf2EACoUEQxEicqCKfzfrxb4VO4bxmVhvVILg-KzajVnpqF6eq9mAp2Ok9d9q9D-dvG61Ro09reX3-ATeyaLETP9_3hIQGRtvRTMH-7BFCdXpWQKlRhoUPnkPquU0t-Rd7Kdx93SZC3fypGc",
+          "width" : 720
+        }
+      ],
+      "place_id" : "ChIJ0aXShttqkFQRzn6RHG_JLLY",
+      "rating" : 4.6,
+      "reference" : "CoQBcgAAAPVzzcKfQ9hxuOaesPmS8AkHZInM6eOpDKDtUH-8VePnE-NtImf_Qy0EHyrn0vvDnV2fYNIktAqH18VU5ZshuA3Ed4zISismPL6yYV7c28KiWOlWzqF8ZYAVvfZxGkH_iBrjVgHLJ_aE79qrvBz_NLAiWRFFuc7NyEXov2A3i59mEhBIoZwOkk3myQzyb3tpG9zeGhRIUkjpEPQxbmIeau7MVedfaIZWhQ",
+      "types" : [ "meal_takeaway", "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1106 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.611635,
+          "lng" : -122.302589
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "2a372e14010faa7a1a5d2de1c287d684953b547d",
+      "name" : "Louisiana Grill",
+      "place_id" : "ChIJ99WLctpqkFQRYijXFhMzQUA",
+      "reference" : "CoQBcQAAAATuaXHafaqHsRKOaKEgQgVPcMdw53IA2QIj1zjxFordpydsV5I_elx3_YTbzxbbi68rMEe4dyZLdddYUH1VzMuSHCVVTa_ybNalgibqRwtIF9LBJUAMlTKHIzXBad46_WLrEUwCU24c3Pdv6mQrokFaZOSF4g7PpJzt7HljC077EhDIupHqmu1CQAHUuhmeakGhGhRWCcU4UJjNk3R3-2mB1N0vS1VZVw",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2425 E Union St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.612795,
+          "lng" : -122.300297
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "1a991c2dd7de40b52754d11f503ebeb3da4d37b2",
+      "name" : "Cortona Cafe",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 401,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAAW51qeS7aaEzt6CEfWKXX0JwED3TtqW18CgGvMu31A3h2nNRC00jYjMXWdkW-dyaQ8M-Lq-s2gTuIXI_usjGmeowviwr09p_kTDDQNixi5FEUMY9hJN_BVsaXsoMOBGrYYDjRiT5nCErhVBEArYeS3RIQnvTqgfTn7cxKqTBr6wdQ0RoU_Y2DPJlbj9DR2w_AeaTi42J4oa4",
+          "width" : 604
+        }
+      ],
+      "place_id" : "ChIJJzBK49lqkFQROi_wpppY50k",
+      "rating" : 4.3,
+      "reference" : "CnRuAAAAMp3JmHmaWGsAgB0YJLWO5UijFnOLOBJjF0kY_DrSbztxpvf66ArYTvTE3ghcIJMHh2plyvTZzCSS1JwWuY2egg5VsUM-Unrc3L6LQyemp88iPa_usHNYPr3wvy8KrjnfLRvAZqk_zlOxPF2NPWfGkRIQrxob3ILJRjFv7EOrpoj6ixoUbwpTEw7VTBG3IBs97oMYv_48vTc",
+      "types" : [ "cafe", "bar", "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1410 18th Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.613277,
+          "lng" : -122.308686
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id" : "ed17313fb5fb31d65dd898a41298feac6935b50e",
+      "name" : "Tougo Coffee Co",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 1280,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAArilGxvxT3hhtt8XxY76JuRIIup1gIs_7OkwAcSKdBTp4Nj3S8VdY9YaQaNcFb-jEA5vfA8JGQ0yXjv7qKFhtCdwifC_7YHTLD_0RGcGfjaoCAugDgkJS2tk9qtgGWZvsrObj4Kzafe32-vAm8xgY-RIQSRgvsuNTj-He84zVu5Q2cBoU35qWPkdh11Z-SXQgR2RP3MrWmxs",
+          "width" : 853
+        }
+      ],
+      "place_id" : "ChIJByZ6tNFqkFQRE_0Bt61ecpw",
+      "price_level" : 1,
+      "rating" : 4.6,
+      "reference" : "CoQBcQAAALndPLz3il06_asK4DNPH6qIn9eMns4C1OyzkKGcrDEq_iLwuGDBQiA9b9-cUb2RgtiPxH_coSN9GRrieDy3WL_NI0oC7fc-inuhr4-UIaspUfSafmvSOUE5HW3x_3uG2DuvtiiNnEn_XrgMaNlM0fMR6nZ_aal5e3UE6iz5Z4VtEhDWnpl7IbsDzPNuKiGw1PRYGhT3qRUB3hIkdEFI_B83n_tnpEqPBw",
+      "types" : [ "cafe", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2605 E Cherry St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.6078,
+          "lng" : -122.298623
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "f910b5ee2c65653ad9a9432e6f073b311a223b03",
+      "name" : "Meskel Ethiopian Restaurant",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 225,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAAbs-dF9fYJ3V0-Wtn6nVRGcWFH_uUQHo5C3XneMdzu-JdbOYSi717bgKoXGzG6Wks7_BBM3Y0NAzqfzR0W84mfKhm2ip_WNplr6rsTh8JwDl5UYlqaXU5RsZn_d0Hux3MYgKC6THdkdeDyp4SomM4vhIQRxB19EGnRWLEz7tBAelGGRoUWCRKLrgcBhwf7EQ2SWVLWGnbiMI",
+          "width" : 300
+        }
+      ],
+      "place_id" : "ChIJhyQtd9xqkFQR0EtTi-w5as0",
+      "price_level" : 2,
+      "rating" : 4.1,
+      "reference" : "CoQBfQAAAFPqkSPEgW98jikM3J6jOcIl6fki4qkhevpPlX8a7eiQLgcKIFdUXeGn0NsBNUtx3ffp42qMmmGh8b_yY10lV3MjdriomFwA5vo7KDYgCrx9spe8UwnGol1eskm6p3t5svyonuLL_J15K3pn-11uBDfaQQs-gEubykLb6wvDSsdeEhBcHyh7cEJgAu-iLBWg2XnTGhS27St65ZrpAhV6cRmpbCpM9_MVAw",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1325 E Jefferson St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.606057,
+          "lng" : -122.314346
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "39a526115e3059d4952a74c4355aeb961d34036e",
+      "name" : "Mesob Ethiopian Restaurant",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 853,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAA3skWZchV_E9ivIM0gurv-V58Wg5gjK_3DeKjPy7S85qHXsrPqRaGvU4qXu4tHX87t_0YyYXvCC66DYEEZJblLLnBxFeB7Mazv7qLz89hKCC_lR_EGbMj0xtYv-k0_IrH71fNS5aEbxRxxsd8CDT7QBIQjZ3mQHpkvbEET7G1ZuEcnxoUQkiXw3GwWN2Ft_W4eQRkiXw4IyA",
+          "width" : 1280
+        }
+      ],
+      "place_id" : "ChIJOzqgYMZqkFQRGcCibIZglIs",
+      "rating" : 4.2,
+      "reference" : "CoQBfQAAAMFur6FUwYoiGKvyHNsSPKJN5HurXg7X2iTuPHUvjzg6lRbuVYYT1-oipp3NSgZMNaAvmjWB3jsNYMEwyle-0WkFUbEhzg9c24BAJkcBjQJlCwwRCz0pvtGsd28FJDMxih3QP8FWy7Rf9d0_BAjBQeGMz_uxHzlRV_G9ePS37AkHEhD4o9egquUwKiEtLy6c9upEGhTj0SE0dUfiHFhtRgfU0_xP8VW0Qw",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2722 E Cherry St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.608165,
+          "lng" : -122.296795
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "d7996a3c940af88dac20286d14de8b5a0f848fde",
+      "name" : "Assimba Ethiopian Cuisine",
+      "place_id" : "ChIJs0s-BdxqkFQR4CWqvc7r6o8",
+      "price_level" : 2,
+      "reference" : "CoQBfAAAAHJMxQnxGxDYjVWo-MZuE3BZ3EtGEnaApL85GyOTjaOsxHUCK5x2MPfqHzGfTfT2E45intSLfG58rFyz_b7Ro3FoCE4qQDkqCbWc9AV9iEeovt_9e6bwexotVZ4Uf25vCn_ETUZweWoT_NvfDQNUigelRyttgmyqi4egLqxi2BofEhCQLPcIHN6qQj_q-EZiQtpxGhSyoUbANwJ9zxUTiw-lKadJbw2OEQ",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+
+
+    {
+      "formatted_address" : "1219 E Jefferson St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.606043,
+          "lng" : -122.315908
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "fc8e2e67de4cf554d2b30743cc8d1dc33181cbe9",
+      "name" : "Zobel Ethiopian Restaurant",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJX945TsZqkFQRMErklRQIY2g",
+      "rating" : 4.3,
+      "reference" : "CoQBewAAAKH69k4H5WGl4oP2t7lx0lLYol1TXHVLHX73WF3dlnEw3-uRhJrOwQ9we1UNg_pxYGBfd-KusNMwUd3gmyMEOACsNaTZWV250GEyfXVEih-11Wm1I2ZBOo4wfVZCrfUK0Q8g-ofZib2zx0Y05C6TxSOZEuHDhz6FyBSnjPf74W1fEhB4pci1z4UMcjP-tnsQ8QNUGhRT0dRkwWVmUu9EGSR8l4phXDgS_A",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2123 E Union St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.612796,
+          "lng" : -122.303822
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "9631eb7927f61bdb35974da44cff0c7f805dc59a",
+      "name" : "Adey Abeba Ethiopian Restaurant",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "place_id" : "ChIJmTWLvdBqkFQRR3gRWSQmdqM",
+      "rating" : 4.5,
+      "reference" : "CpQBggAAAK8qo-AWSA-ieUehyyXEVXOx28pnq1HR4-TojxF9c_SINk03VhxAfeRvRLbTtloB4_2qSO6xTW7k5tsQ4bSS3M0xgr6uWP9Jx4LeYiu4fMYPRiHzDzwx1XtL6ydhifG6wsDssS5ppVDFmP8Cwty-famq60KFMm3w6ivN2l1ZURIiMmojKWGOLFlws5NtIWtaHBIQ1KmEyh7mCD-a0bh_GyRteRoUyAVJdaJyGa8cFguCQtrfjbiyHV0",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2801 E Cherry St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.607834,
+          "lng" : -122.295659
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "d47b9ecdd9cacaed2435d03a4143347f078e8342",
+      "name" : "Ras Dashen Restaurant",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 400,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAAo8eKJ9AHcfC2kqTN65JbOd-fbvdrepgkzb7IaTZOzNjCXAPJHiJotfS_jsu_mHYPmmmQ6vIvlcTYeF4-2iBOvTHbqfbW1Ea0ctdA9PnbsKE0pzLxTUl0w4fmvfGrL9Q1b90YPVpMuCRw75axf3wSLBIQVKvHrOuZNsY6xROfcVn97xoUxMwtPkJ_UEO1oxb28L6r4QDq-zY",
+          "width" : 600
+        }
+      ],
+      "place_id" : "ChIJS_svH9xqkFQRQKc_b95IvzA",
+      "rating" : 4.7,
+      "reference" : "CoQBdgAAAPC4ITpMu4bbZcUJrw2JYhFZixh2ZyWpQHJpVV7CoXgY9nF2PgkcfUKRpLwLDBmqf4K4KIVAdY_eBqO-8nhSoSwZr-VDj38vH1LfdTIs08RxXkWPdEt1ungIZbhHkTq5fh9UZqM3iRQXTc_LuhEYbDtZQOAwdMRCMUc5ngHVp4nAEhD-rHJmBSJChMZG3shWmieoGhStZ5PeCcz0wIYbwhd3oQmMW9qqOQ",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2715 E Cherry St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.607848,
+          "lng" : -122.297286
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "8654f9d9192e4a9bc1224428210d44611ade5e66",
+      "name" : "Cafe Selam",
+      "opening_hours" : {
+        "open_now" : true
+      },
+      "photos" : [
+        {
+          "height" : 480,
+          "html_attributions" : [ "From a Google User" ],
+          "photo_reference" : "CnRoAAAATPaqZ-ggIEC1hOIiqu3Df2JS7MCMLnq8rf6I14u3LK6hkjOWP5A5CDetEAG6uv_eZV6Ahhr-SDxohyoyitBiZd-pNbTinXlOCY-rw1S7f4Qn6Hh4GbD5yxtFZJ2oMWUhLFcAmVoHewgB49Xo7pc9zhIQQjn413tqJpw8O0wT8fhJrxoUV4zodsC8iUYERKwDoHpM33ni9Fs",
+          "width" : 640
+        }
+      ],
+      "place_id" : "ChIJfyMSEtxqkFQR5WjA_FfVp4A",
+      "reference" : "CnRtAAAA19SfsLNdnARy3PGcnnhjpLw8lPwShjqCq9m9TBC5QC-zDxhKhh9Ht73cVH9PMnoDKXQ3W5RRlnFY7jlr-CV37LkEJMG3c4K7U5bdPJIoH1Pvb2IwDye4UowW3FDvGNbq-n6aijYKwO8xqFg9A5saNxIQCXucmYAYXXWTjrqTNskNDhoUE4qV0om2gKv605lyIcz6YsyiiNg",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "308 22nd Ave S #102, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.599864,
+          "lng" : -122.302983
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id" : "65ab14b0bf49a964f940daed8117d22ec7f0f2bc",
+      "name" : "The Urban Buggy",
+      "opening_hours" : {
+        "open_now" : false
+      },
+      "photos" : [
+        {
+          "height" : 640,
+          "html_attributions" : [],
+          "photo_reference" : "CnRnAAAA2jko1a8ocLA9PMmhLrSLEQmhTIOdHCdieo7ipICwJEQAG8re5K7rG5RK6EdU2Napn_JkA7H4IpuconFSom6qsScqgum6bZq_1QlqL9tr1rAniVqjoetycKGuwOfBJ6En-KhDOUg9qe4YnD7IgdaoABIQJn9E2e06U5g95wWsacLZcBoUOA0erRrL9EXnJA5xd2lTdYZDCuE",
+          "width" : 480
+        }
+      ],
+      "place_id" : "ChIJWzat8ulqkFQRGnN9GwfhQG8",
+      "reference" : "CnRwAAAADZuI_93Rtqf7O0X6gprPREbybjLeCMoPONLCcHSOcQ-7tdQutU66RgJxzqmlWySPDcjcSXvAJ-1rjHadlnGqGdT8gO39i5Cb9sXc2ZEVhnIxSuRX2hHDkYSqrBC7TLtgZOg2HXNq_N2xiMELT7kWPhIQGApOZqhuxxYKQNvc42v2XxoUya3tVPjcEgZmU-fjFXSzD-QH5JY",
+      "types" : [ "restaurant", "food", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2301 S Jackson St #204, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.59876,
+          "lng" : -122.301806
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "f94a5dc7078d4a10d8d69721906961e09f057f1c",
+      "name" : "East African Imports",
+      "place_id" : "ChIJn_vTfelqkFQRfsPOJiRMiEM",
+      "reference" : "CoQBdgAAANbFl6e3hI61V2EsysKPznFPdcTZuKJZ4MzuZ3xv9yEvoS1vIY3g_yjJaH9pn07Qt6H2AyYqz_eD7NMpCWjckNQBEsvviDyOVQSDUjdJqu9pZIYXtMWX3BVb7M4ZHuXRLAJmVet3r-EDprJQmors6BvMF3SADfjmb4Q3X1tKeY5iEhAw0z9LW_Wb-N5fWdFv0--mGhRVxIwyIBLatKKjsYzchuXHdr5nmQ",
+      "types" : [ "store", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2301 S Jackson St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.59846,
+          "lng" : -122.302003
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id" : "ccd611cabfc20bdbe01d6c2cd97862e5f24c9e43",
+      "name" : "Toure Apparel",
+      "place_id" : "ChIJn_vTfelqkFQRA1q5kErHwZ8",
+      "reference" : "CnRvAAAANp97eW2ATQm55e7i3PBYWZ6Qy7XpstUS6D9e5sgBhB_gJX2Lywwdv9i7-v_dAoeLKyXXYs6GlFpmnTpKatCp176rS3MQHh4lG88Ys_yOzaed9-jNJu9Qnb0ramfRc-ioiIHDdbv9VUG7P6PEgpaNQhIQ8cokyp5S9_DpiTV6Fi8b8RoUy42SKqnVNTFhNKL7Zwr5crE8vw8",
+      "types" : [ "clothing_store", "store", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2108 E Madison St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.618482,
+          "lng" : -122.303846
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/barber-71.png",
+      "id" : "2f5f15adba834f7a138ea554fa732a73a5a67a81",
+      "name" : "De Charlene's Beauty College",
+      "place_id" : "ChIJ1U8Ny9VqkFQRSQbQOaKGTuE",
+      "reference" : "CoQBfgAAAJF5Zzuppskamlg3PLMgBziv_-OnhcfU80sEMr81_4u5-3fRv3pQSoUGSOh3GwHGp8m8aRNygshs_5nUPOpkePLKVoXo2xUMKD4bGtJ4Wm6bVGS1sh2lkbQmxRRGJfq0eSOHQKZCQT-v7LUWld0-6L83M7iqAed4BvnHnj3R3wsnEhCqRpVZLHwA_AERN0KkaqBSGhTnBaiqwyfgX1wI9rPfSO9r1RE2kw",
+      "types" : [ "beauty_salon", "hair_care", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1152 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.611839,
+          "lng" : -122.302592
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "f4b7428ba5db2e6a109a1fe67004ed6aac907c2c",
+      "name" : "Mana Beauty Supply",
+      "place_id" : "ChIJ4-NKc9pqkFQRgLkEjS665sw",
+      "reference" : "CoQBdAAAAIgcChJ2h2h8DCck-7uDilpDn0k0H6URHVgtjq_yVMTwOq0zcrgSEfFwE-3SC3vK3gJN7sEaiVy4mrunIeaDsXV--C-XVixUbp6bIoiGLXxAyAyoVnEq8hS72ThNlHB-b_m2WTacziowNQIpYLByCWXciuUspzLCvQt8lW2WjRoGEhChRFP3uEBlHryjo4w3TdJ_GhSPOnC7QWZUXujVqNF74k8oe4Za0g",
+      "types" : [ "store", "establishment" ]
+    },
+
+    {
+      "formatted_address" : "1162 23rd Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.612662,
+          "lng" : -122.302329
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/barber-71.png",
+      "id" : "7cd4e7ab82cc817be63cf7c4316ca36f93ca4cb6",
+      "name" : "Earl's Cuts & Style",
+      "place_id" : "ChIJiY3FqNBqkFQR8DXq1hE8Ang",
+      "reference" : "CoQBdAAAAEf2xh0DVHhbYqasL6nQeX2wvH8FwtgKmAhYS4MEKpwKgGtF7jY5eaLBlBObDVBaIvwsBvlkLeau3hbMy1tifg_rf8cwnQR44CCupsfEbg3d5rcIFV71ANWO-wugTl-GjaK_MwNnr6ERfLA9hAvVPe1QAx3a1ser4pJaf0a0o7gYEhAf6oevat1n-_lqbbfb3TTuGhQCgaOBtwdZPfPhjsXsUuCHSk-X0Q",
+      "types" : [ "beauty_salon", "establishment" ]
+    },
+
+
+    {
+      "formatted_address" : "1112 34th Ave, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.612127,
+          "lng" : -122.289103
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "4560da9f1b3eb757b6de8f18e51528c0dca3fb96",
+      "name" : "Facts Newspaper",
+      "place_id" : "ChIJQ2y2QCdrkFQRycLTdiMsQBM",
+      "reference" : "CnRwAAAATK_JvVVHkwoPSQxSvVHoAVEqSGj3ifX4fYBu68USYC0UdFUv2lyZ97Ly36f-GIGavn4jKyIOsN7uVy5OHcG6Z5ZUjB4RTwAkS6CPS63htAMU_gxSUNhEm4nd3L8wFiU6P601l0FQ58iXG-2350Dl7xIQzfU6bhbARiL29kGH81Q0MBoUZSNSorF-rGOT_smPXQrOEoHU2jM",
+      "types" : [ "establishment" ]
+    },
+
+    {
+      "formatted_address" : "2600 S Jackson St, Seattle, WA, United States",
+      "geometry" : {
+        "location" : {
+          "lat" : 47.599385,
+          "lng" : -122.298497
+        }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "3392f44c9872515725fdc651875945ab95d9c773",
+      "name" : "Medium Newspaper",
+      "place_id" : "ChIJz2pa_OhqkFQR1uHjJAu9Qb8",
+      "reference" : "CoQBcgAAAD5cMiOJ5csgJWLYneV9-0jvkcedLlV1hUzqjXHCEqiuZtjwWIp3K-ljwfozH-Z1sYvzIT2XTsdApHxzSw2zAkn6CHuo1pgyaFWg3BW-UbRWSsxkbsqyeHZHOmVg7QoN6JTkdbN90rl3_4OgDqESpYjcUWyObwbseh4EwE_nPW8UEhCVP28Wpp5JjAu_NBsPYQxAGhT9tTdUhMBj2ReX6j7nb_3lnBmE0A",
+      "types" : [ "establishment" ]
+    }
+  ]
+}
