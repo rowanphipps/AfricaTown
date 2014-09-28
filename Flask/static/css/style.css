@@ -61,7 +61,7 @@ body{
 }
 
 .jumbotron{
-    background: url(/static/central_small.png) no-repeat;
+    background: url(/static/catfishcorner.jpg) no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -71,4 +71,6 @@ body{
     bottom: -10px;
     left: 10px;
 }
+
+
 
