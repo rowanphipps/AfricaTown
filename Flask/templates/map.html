@@ -132,11 +132,12 @@
 
                 $.each(data.results, function(idx, result){
                     var marker = L.marker([result.geometry.location.lat, result.geometry.location.lng]);
+                    historicalLayer.addLayer(marker);
+
                     marker.on('click', function(e) {
                         //Show details in panel.
                         showDetails(result);
                     });
-                    historicalLayer.addLayer();
                 });
             });
 
