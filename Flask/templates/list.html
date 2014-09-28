@@ -5,7 +5,7 @@
     <script src={{ url_for('static', filename='jquery.min.js') }}></script>
     <script src={{ url_for('static', filename='bootstrap.min.js') }}></script>
 
-    <title>{{ place["name"] }}</title>
+    <title>List</title>
 
   </head>
 
@@ -37,25 +37,20 @@
         </div>
       </nav>
 
-      <div class="row">
-        <div class="col-xs-12">
-          <img id="detailImage" src="{{ place["image"] }}" alt="image of the place/event">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-6">
-          <h3 id="name">{{ place["name"] }}</h3>
-          <h4 id="address">{{ place["formatted_address"] }}</h4>
-          
+      <ul>
+        {% for place in toList %}
+        <div class="row">
+          <a href="#" class="list-group-item">
+            <div class="col-xs-12">
+              <h3>{{ place["name"] }}</h3>
+              <p>{{ place['formatted_address']  }}</p>
+            </div>
+          </a>
         </div>
 
-        <div class="col-xs-6">
-          <img id="mapThumb" src="" alt="thumbnail of its location">
-        </div>
-      </div>
-      <h3>Description</h3>
-      <p id="description">{{ place["description"] }}</p>
+        {% endfor %}
 
+        
+      </ul>
     </div>
   </body>
-</html>

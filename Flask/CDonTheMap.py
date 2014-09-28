@@ -14,16 +14,22 @@ def create_app():
 	app = Flask(__name__)
 	Bootstrap(app)
 
+	BUSINESSES = json.load(open('data/businesses.json'))
+	HISTORY = json.load(open('data/historical_landmarks.json'))
+	ORGANIZATIONS = json.load(open('data/community_institutions.json'))
+
+
+	
 
 	@app.route('/')
 	def home():
 
 		return render_template('home.html')
 
-	@app.route('/events')
+	@app.route('/history')
 	def events():
 		print "events"
-		return render_template('index.html')
+		return render_template('list.html', toList=HISTORY['results'])
 
 	@app.route('/organizations')
 	def organizations():
@@ -45,6 +51,15 @@ def create_app():
 	def history():
 		print "history"
 		return render_template('index.html')
+
+	@app.route('/fonts/glyphicons-halflings-regular.ttf')
+	def ttfGlyph():
+		return open('fonts/glyphicons-halflings-regular.ttf')
+
+	@app.route('/fonts/glyphicons-halflings-regular.woff')
+	def woffGlyph():
+		return open('fonts/glyphicons-halflings-regular.woff')
+
 
 	return app
 
