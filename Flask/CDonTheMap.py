@@ -16,7 +16,7 @@ def create_app():
 
 	BUSINESSES = json.load(open('data/businesses.json'))
 	HISTORY = json.load(open('data/historical_landmarks.json'))
-	ORGANIZATIONS = json.load(open('data/community_institutions.json'))
+	COMMUNITY = json.load(open('data/community_institutions.json'))
 
 
 	
@@ -31,15 +31,15 @@ def create_app():
 		print "events"
 		return render_template('list.html', toList=HISTORY['results'])
 
-	@app.route('/organizations')
-	def organizations():
-		print "organizations"
-		return render_template('index.html')
+	@app.route('/community')
+	def community():
+		print "community"
+		return render_template('list.html', toList=COMMUNITY['results'])
 
 	@app.route('/businesses')
 	def businesses():
 		print "businesses"
-		return render_template('index.html')
+		return render_template('list.html', toList=BUSINESSES['results'])
 
 	@app.route('/about')
 	def about():
@@ -52,13 +52,7 @@ def create_app():
 		print "history"
 		return render_template('index.html')
 
-	@app.route('/fonts/glyphicons-halflings-regular.ttf')
-	def ttfGlyph():
-		return open('fonts/glyphicons-halflings-regular.ttf')
 
-	@app.route('/fonts/glyphicons-halflings-regular.woff')
-	def woffGlyph():
-		return open('fonts/glyphicons-halflings-regular.woff')
 
 
 	return app
