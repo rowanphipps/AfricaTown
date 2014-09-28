@@ -1,6 +1,6 @@
 .navbar-inverse {
     background-color: #F47929;
-    border-color: #F47929;
+    border-style: none;
 }
 
 body{
@@ -34,4 +34,27 @@ body{
 
 .map_list_toggle{
     margin: 10px 0;
+}
+
+.navbar-inverse .navbar-text{
+    color: #fff;
+}
+
+.navbar-inverse .navbar-toggle{
+    border-style: none;
+}
+
+.list-group-item{
+    background-color: #ffffff;
+    border-color: #f5f5f5;
+}
+.list-text{
+    color: #404040;
+}
+
+.collapse .navbar-collapse{
+    background-color: #333;
+}
+.nav-item{
+    background-color: #333;
 }

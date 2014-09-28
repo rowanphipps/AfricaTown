@@ -13,7 +13,7 @@
   <body>
 
     <div class="container">
-      <nav class="navbar navbar-inverse" role="navigation">
+      <nav class="navbar navbar-inverse nav-item" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
@@ -23,7 +23,7 @@
           </button>
 
           <a class="navbar-brand" href="{{ url_for('home') }}"><img src={{ url_for('static', filename='africatown_logo_croped.png') }} height="30" ></a>
-          <p class="navbar-text">{{ genre.capitalize() }}</p>
+          <h3 class="navbar-text">{{ genre.capitalize() }}</h3>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -53,8 +53,8 @@
         <div class="row list-group-item">
           <a href="{{ url_for('.detail',  ID=place['id'], Genre=genre)}}">
             <div class="col-xs-12">
-              <h3>{{ place["name"] }}</h3>
-              <p>{{ place['formatted_address']  }}</p>
+              <h4 class="list-text">{{ place["name"] }}</h4>
+              <p class="list-text">{{ place['formatted_address'] }}</p>
             </div>
           </a>
         </div>
