@@ -3,6 +3,7 @@
   "results" : [
     {
       "formatted_address" : "501 23rd Ave, Seattle, WA, United States",
+      "photo": "ezells.png",
       "description": "Ezell’s Chicken was formed in 1984 and has since become a culinary destination both for distinguished visitors such as Oprah and the everyday Seattleite.",
       "featured": true,
       "geometry" : {
