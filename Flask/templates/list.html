@@ -40,7 +40,7 @@
       <ul>
         {% for place in toList %}
         <div class="row list-group-item">
-          <a href="#" class="">
+          <a href="{{ url_for('.detail',  ID=place['id'], Genre=genre)}}">
             <div class="col-xs-12">
               <h3>{{ place["name"] }}</h3>
               <p>{{ place['formatted_address']  }}</p>

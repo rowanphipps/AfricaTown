@@ -27,19 +27,19 @@ def create_app():
 		return render_template('home.html')
 
 	@app.route('/history')
-	def events():
-		print "events"
-		return render_template('list.html', toList=HISTORY['results'])
+	def history():
+		print "history basic"
+		return render_template('list.html', toList=HISTORY['results'], genre='history')
 
 	@app.route('/community')
 	def community():
 		print "community"
-		return render_template('list.html', toList=COMMUNITY['results'])
+		return render_template('list.html', toList=COMMUNITY['results'], genre='community')
 
 	@app.route('/businesses')
 	def businesses():
 		print "businesses"
-		return render_template('list.html', toList=BUSINESSES['results'])
+		return render_template('list.html', toList=BUSINESSES['results'], genre='businesses')
 
 	@app.route('/about')
 	def about():
@@ -47,10 +47,35 @@ def create_app():
 		return render_template('index.html')
 
 
-	@app.route('/history')
-	def history():
-		print "history"
-		return render_template('index.html')
+	@app.route('/<Genre>/<ID>')
+	def detail(Genre=None, ID=None):
+		print 'history advanced'
+		print ID
+		out = None
+		
+		res = []
+		if Genre=='history':
+			res = HISTORY['results']
+
+		elif Genre=='community':
+			res = COMMUNITY['results']
+
+		elif Genre=='businesses':
+			res = BUSINESSES['results']
+
+		for i in res:
+
+			if i['id'] == ID:
+				out = i
+				break
+
+		return render_template('detail.html', place=out)
+
+
+	# @app.route('/history')
+	# def history():
+	# 	print "history"
+	# 	return render_template('index.html')
 
 
 
