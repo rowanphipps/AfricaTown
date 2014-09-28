@@ -1,0 +1,80 @@
+<!-- <div class="" data-ng-controller="AfricatownController">
+  <h1>Example view from your new awesome package</h1>
+  <h2>Package: {{package.name}}</h2>
+  <ol>
+    <li>
+      <a href="africatown/example/anyone">Server route that anyone can access</a>
+    </li>
+    <li>
+      <a href="africatown/example/auth">Server route that requires authentication</a>
+    </li>
+    <li>
+      <a href="africatown/example/admin">Server route that requires admin user</a>
+    </li>
+    <li>
+      <a href="africatown/example/render">Raw Html rendering example from using swig</a>
+    </li>
+  </ol>
+  <h3><img src="/africatown/assets/img/logo.png" /></h3>
+  </br>
+  <p class="alert alert-info">You can find your package in /packages/africatown</p>
+  </br>
+  <p class="alert alert-warning">MEAN versions prior to 0.3.2 will be in /node_modules/africatown</p>
+  </br>
+  <h3><a href="http://www.mean.io/#!/docs">Documentation</a></h3>
+  </br>
+</div>
+ -->
+
+<div class="container">
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="{{ url_for('home') }}">CD on the map</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">List</a></li> -->
+        <li><a href="{{ url_for('events') }}">Events</a></li>
+        <li><a href="{{ url_for('organizations') }}">Organizations</a></li>
+        <li><a href="{{ url_for('business') }}">Business</a></li>
+        <li><a href="{{ url_for('history') }}">History</a></li>
+
+        <li><a href="{{ url_for('about') }}">About</a></li>
+        <li><a href="{{ url_for('resources') }}">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="jumbotron">
+    <h1>Hello, we are CD on the map</h1>
+    <p>this is what we do</p>
+  </div>
+  <div class="list-group">
+    <a href="#" class="list-group-item">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <h4>Featured Buisness</h4>
+      <p>address</p>
+    </a>
+    <a href="#" class="list-group-item">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <h4>Featured Organisation</h4>
+      <p>address</p>
+    </a>
+
+    <a href="#" class="list-group-item">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <h4>Featured Event</h4>
+      <p>address</p>
+      <p>date/time</p>
+    </a>
+
+</div>
