@@ -108,7 +108,7 @@
 
     {
       "formatted_address" : "1106 23rd Ave, Seattle, WA, United States",
-      "featured": true,
+      "featured": false,
       "geometry" : {
         "location" : {
           "lat" : 47.611635,
@@ -425,7 +425,7 @@
 
     {
       "formatted_address" : "2108 E Madison St, Seattle, WA, United States",
-      "featured": false,
+      "featured": true,
       "geometry" : {
         "location" : {
           "lat" : 47.618482,

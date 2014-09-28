@@ -38,7 +38,7 @@
         </div>
       </nav>
 
-      <ul>
+      <ul class="no_padding_left">
         {% for place in toList %}
         <div class="row list-group-item">
           <a href="{{ url_for('.detail',  ID=place['id'], Genre=genre)}}">
