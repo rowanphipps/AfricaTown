@@ -3,6 +3,8 @@
   "results" : [
     {
       "formatted_address" : "400 23rd Ave, Seattle, WA, United States",
+      "photo": "Garfield.png",
+      "description" : "Though the original James A Garfield High School was formed in 1917 the current building wasn’t built until 1923.Though enrollment has varied throughout the years Garfield has remained an educational pillar in the Central District molding greats such as Quincy Jones, Jimi Hendrix and Brandon Roy.",
       "geometry" : {
         "location" : {
           "lat" : 47.605412,
@@ -20,6 +22,8 @@
 
     {
       "formatted_address" : "1634 19th Ave, Seattle, WA, United States",
+      "photo": "MtZion.jpg",
+      "description" : "Mt Zion Baptist Church was founded on February 18th 1894 and after numerous address changes found its home on the corner of 19th and Madison in 1920 where it remains today.",
       "geometry" : {
         "location" : {
           "lat" : 47.616212,
@@ -36,6 +40,8 @@
 
     {
       "formatted_address" : "1522 14th Avenue, Seattle, WA, United States",
+      "photo": "FirstAME.jpg",
+      "description" : "First AME Church was the first African American church in what was then the Washington territory. Though founded in 1886 it tried a few different locations before it found its permanent home in 1912.",
       "geometry" : {
         "location" : {
           "lat" : 47.614819,
@@ -55,6 +61,8 @@
 
     {
       "formatted_address" : "352 Martin Luther King Jr Way, Seattle, WA, United States",
+      "photo": "PowellBarnettPark.jpg",
+      "description" : "Powell Barnett was a musician, baseball player and community activist born on August 2, 1883. His long list of accomplishments includes development of the Leschi Improvement Council and leading the organization of the East Madison YMCA. The park on Martin Luther King Jr. Way South was named after him in 1969.",
       "geometry" : {
         "location" : {
           "lat" : 47.60519,
@@ -85,6 +93,7 @@
 
     {
       "formatted_address" : "1814 30th Ave, Seattle, WA, United States",
+      "description": "William Grose was Seattle’s second black resident. Arriving here in 1861 he came to own a restaurant and barbershop and later purchased 12 acres of land in 1882 on what is now Madison Street. This land purchase was instrumental in the formation of what is now known as the Central District.",
       "geometry" : {
         "location" : {
           "lat" : 47.618002,
@@ -104,6 +113,7 @@
 
     {
       "formatted_address" : "2100 S Jackson St, Seattle, WA, United States",
+      "photo": "BlancheLavizzoPark.png",
       "geometry" : {
         "location" : {
           "lat" : 47.601129,
@@ -142,6 +152,7 @@
 
     {
       "formatted_address" : "1400 Martin Luther King Jr Way S, Seattle, WA, United States",
+      "photo": "SamSmithPark.jpg",
       "geometry" : {
         "location" : {
           "lat" : 47.589807,
@@ -158,6 +169,7 @@
 
     {
       "formatted_address" : "330 28th Ave S, Seattle, WA, United States",
+      "photo": "FloWarePark.jpg",
       "geometry" : {
         "location" : {
           "lat" : 47.599593,
@@ -204,6 +216,7 @@
 
     {
       "formatted_address" : "1902 S Main St, Seattle, WA, United States",
+      "photo": "PrattLogo.png",
       "geometry" : {
         "location" : {
           "lat" : 47.600153,
@@ -232,6 +245,7 @@
 
     {
       "formatted_address" : "500 23rd Ave, Seattle, WA, United States",
+      "photo": "MedgarEvars.jpg",
       "geometry" : {
         "location" : {
           "lat" : 47.606707,
@@ -267,6 +281,7 @@
 
     {
       "formatted_address" : "2300 E Yesler Way, Seattle, WA, United States",
+      "photo": "douglastruth.jpg",
       "geometry" : {
         "location" : {
           "lat" : 47.601983,

@@ -91,7 +91,7 @@ def create_app():
 				out = i
 				break
 
-		return render_template('detail.html', place=out)
+		return render_template('detail.html', place=out, location=json.dumps(out['geometry']))
 
 
 	return app
