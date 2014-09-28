@@ -3,6 +3,7 @@
   "results" : [
     {
       "formatted_address" : "501 23rd Ave, Seattle, WA, United States",
+      "description": "Ezell’s Chicken was formed in 1984 and has since become a culinary destination both for distinguished visitors such as Oprah and the everyday Seattleite.",
       "featured": true,
       "geometry" : {
         "location" : {
@@ -32,6 +33,7 @@
     },
     {
       "formatted_address" : "602 19th Ave E, Seattle, WA, United States",
+      "description": "Kingfish Cafe was started by two Seattle natives to fill the need of authentic Southern cuisine in Seattle. Their delicious food has captivated Seattle since 1997 and there’s no sign we’ll get bored anytime soon.",
       "featured": true,
       "geometry" : {
         "location" : {
@@ -154,6 +156,7 @@
 
     {
       "formatted_address" : "1410 18th Ave, Seattle, WA, United States",
+      "description": "Tougo Coffee fits perfectly into the Seattle coffee scene with its personalized customer experience which includes a play area for children and striking architectural details in their two locations.",
       "featured": false,
       "geometry" : {
         "location" : {
@@ -363,6 +366,7 @@
 
     {
       "formatted_address" : "308 22nd Ave S #102, Seattle, WA, United States",
+      "description" : "The Urban Buggy is a unique farm and bakery providing delicious vegan and gluten free desserts!",
       "featured": false,
       "geometry" : {
         "location" : {
@@ -459,6 +463,7 @@
 
     {
       "formatted_address" : "1162 23rd Ave, Seattle, WA, United States",
+      "description": "As the quintessential community barbershop Earl’s Cuts and Styles specializes in African American hair and have been keeping us fresh since 1992.",
       "featured": true,
       "geometry" : {
         "location" : {
