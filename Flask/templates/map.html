@@ -18,7 +18,7 @@
           }
 
           #map {
-            height: 80%;
+            height: 60%;
           }
 
           #mini_details{
@@ -257,14 +257,12 @@
                 if(userLocation){
                     distance = KmToMi(getDistanceFromLatLonInKm(userLocation.coords.latitude,userLocation.coords.longitude, item.geometry.location.lat,  item.geometry.location.lng));
                 }
-<<<<<<< HEAD
+
                 // var html = '<div class="mini-item"><div style="float:left;"><span class="mini-title">' + item.name + '</span><span class="mini-details"></span><span class="mini-distance">' + (distance ? (distance).toFixed(2) + " mi" : "") + '</span></div><div><div style="float:right;" class="item_details_link"><a href="/' + mode + '/' + item.id + '" type="button" class="btn btn-default">Details</a></div></div>';
                 // $("#mini_details").html(html);
 
                 var html = '<div class="row list-group-item"><a href="/' + mode + '/' + item.id + '"><div class="col-xs-12"><h4 class="list-text">' + item.name + '</h4><p class="list-text">' + (distance ? (distance).toFixed(2) + " mi" : "") + '</p></div></a></div>';
-=======
-                var html = '<div class="mini-item"><div style="float:left;"><span class="mini-title">' + item.name + '</span><span class="mini-distance">' + (distance ? (distance).toFixed(2) + " mi" : "") + '</span></div><div><div style="float:right;" class="item_details_link"><a href="/' + mode + '/' + item.id + '" type="button" class="btn btn-default">Details</a></div></div>';
->>>>>>> FETCH_HEAD
+
                 $("#mini_details").html(html);
 
                 

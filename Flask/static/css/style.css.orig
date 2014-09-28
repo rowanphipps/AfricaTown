@@ -73,7 +73,12 @@ body{
     left: 10px;
 }
 
+<<<<<<< HEAD
 .row .featured_label{
     padding: 0px 15px;
     padding-left: 0px;
 }
+=======
+
+
+>>>>>>> upstream/master

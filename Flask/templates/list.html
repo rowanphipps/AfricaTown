@@ -59,6 +59,11 @@
         <div class="row list-group-item">
           <a href="{{ url_for('.detail',  ID=place['id'], Genre=genre)}}">
             <div class="col-xs-12">
+                {% if place.featured %}
+                    <div class="featured_label">
+                        <img style="height:20px; margin-right: 10px;" src="/static/africatown_feat.png" />Featured Business
+                    </div>
+                {% endif %}
               <h4 class="list-text">{{ place["name"] }}</h4>
               <p class="list-text">{{ place['formatted_address'] }}</p>
             </div>
