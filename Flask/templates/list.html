@@ -37,6 +37,15 @@
         </div>
       </nav>
 
+      <div class="btn-group btn-group-justified">
+        
+        <a role="button" href="{{ url_for(target) }}" class="btn btn-default">Map</a>
+        
+        
+        <a role="button" class="btn btn-default active">List</a>
+        
+      </div>
+
       <ul>
         {% for place in toList %}
         <div class="row list-group-item">

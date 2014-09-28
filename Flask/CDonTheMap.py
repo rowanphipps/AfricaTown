@@ -26,12 +26,12 @@ def create_app():
 
 		return render_template('home.html')
 
-	@app.route('/history/list')
+	@app.route('/historyList')
 	def historylist():
 		print "history basic"
 		return render_template('list.html', toList=HISTORY['results'], genre='history')
 
-	@app.route('/community/list')
+	@app.route('/communityList')
 	def communitylist():
 		print "community"
 		return render_template('list.html', toList=COMMUNITY['results'], genre='community')
@@ -48,15 +48,16 @@ def create_app():
 		print "orgmap"
 		return render_template('map.html', mode='community')
 
-	@app.route('/businesses/list')
+	@app.route('/businessesList')
 	def businesseslist():
-		print "businesses"
-		return render_template('list.html', toList=BUSINESSES['results'], genre='business')
+		print "businesses list"
+
+		return render_template('list.html', toList=BUSINESSES['results'], genre='business', target='businesses')
 
 	@app.route('/businesses')
 	def businesses():
 		print "businessmap"
-		return render_template('map.html', mode='business')
+		return render_template('map.html', mode='business', target='businesseslist')
 
 	@app.route('/about')
 	def about():
