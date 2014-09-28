@@ -6,3 +6,32 @@
 body{
     background-color: #f2f2f2;
 }
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #777;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #777;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no_padding_left {
+    padding-left: 0px;
+}
+
+.map_list_toggle{
+    margin: 10px 0;
+}
