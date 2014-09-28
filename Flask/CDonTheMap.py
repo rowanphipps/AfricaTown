@@ -29,24 +29,24 @@ def create_app():
 	@app.route('/historyList')
 	def historylist():
 		print "history basic"
-		return render_template('list.html', toList=HISTORY['results'], genre='history')
+		return render_template('list.html', toList=HISTORY['results'], genre='history', target='history')
 
 	@app.route('/communityList')
 	def communitylist():
 		print "community"
-		return render_template('list.html', toList=COMMUNITY['results'], genre='community')
+		return render_template('list.html', toList=COMMUNITY['results'], genre='community', target='community')
 
 
 	@app.route('/history')
 	def history():
 		print "historymap"
-		return render_template('map.html', mode='history')
+		return render_template('map.html', mode='history', target='historylist')
 
 
 	@app.route('/community')
 	def community():
 		print "orgmap"
-		return render_template('map.html', mode='community')
+		return render_template('map.html', mode='community', target='communitylist')
 
 	@app.route('/businessesList')
 	def businesseslist():
