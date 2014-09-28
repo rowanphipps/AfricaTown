@@ -23,8 +23,13 @@ def create_app():
 
 	@app.route('/')
 	def home():
+		feat = []
 
-		return render_template('home.html')
+		for biz in BUSINESSES['results']:
+			if biz['featured']:
+				feat.append(biz)
+
+		return render_template('home.html', featured=feat)
 
 	@app.route('/historyList')
 	def historylist():
