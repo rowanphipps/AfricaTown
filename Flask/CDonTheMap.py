@@ -51,7 +51,7 @@ def create_app():
 	@app.route('/businesses')
 	def businesses():
 		print "businesses"
-		return render_template('list.html', toList=BUSINESSES['results'], genre='businesses')
+		return render_template('list.html', toList=BUSINESSES['results'], genre='business')
 
 	@app.route('/businesses/map')
 	def businessmap():
@@ -66,8 +66,7 @@ def create_app():
 
 	@app.route('/<Genre>/<ID>')
 	def detail(Genre=None, ID=None):
-		print 'history advanced'
-		print ID
+
 		out = None
 		
 		res = []
@@ -77,7 +76,7 @@ def create_app():
 		elif Genre=='community':
 			res = COMMUNITY['results']
 
-		elif Genre=='businesses':
+		elif Genre=='business':
 			res = BUSINESSES['results']
 
 		for i in res:
@@ -89,10 +88,7 @@ def create_app():
 		return render_template('detail.html', place=out)
 
 
-	# @app.route('/history')
-	# def history():
-	# 	print "history"
-	# 	return render_template('index.html')
+
 
 
 
