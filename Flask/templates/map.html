@@ -18,6 +18,19 @@
           #map {
             height: 60%;
           }
+
+          #mini_details{
+              height: 15%;
+          }
+
+          .mini-item {
+              padding: 10px 0;
+          }
+
+          .mini-item span {
+              padding: 0 20px;
+          }
+
       </style>
   </head>
 
@@ -51,6 +64,10 @@
       <div id="map">
       </div>
 
+      <div id="mini_details">
+
+      </div>
+
       <!--<ul>-->
         <!--{% for place in toList %}-->
           <!--<script type=text/javascript>-->
@@ -62,23 +79,31 @@
     <script src={{ url_for('static', filename='js/leaflet/leaflet.js') }}></script>
     <script type="text/javascript">
         var map = L.map('map').setView([47.6, -122.3], 13);
+        var userLocation; //hold the user's location.
 
         L.tileLayer('https://{s}.tiles.mapbox.com/v3/examples.map-qfyrx5r8/{z}/{x}/{y}.png', {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
             maxZoom: 18
         }).addTo(map);
 
+        getLocation();
+
         loadThemes();
 
+        var mode;
+
         {% if mode == 'history' %}
+            mode = 'history';
             loadHistoricalLandmarks();
         {% endif %}
 
         {% if  mode == 'business' %}
+            mode = 'business';
             loadBusinesses();
         {% endif %}
 
         {% if mode == 'community' %}
+            mode = 'community';
             loadCommunityOrganizations();
         {% endif %}
 
@@ -107,7 +132,12 @@
                 //got the data. Loop and add to a marker group.
 
                 $.each(data.results, function(idx, result){
-                    historicalLayer.addLayer(L.marker([result.geometry.location.lat, result.geometry.location.lng]));
+                    var marker = L.marker([result.geometry.location.lat, result.geometry.location.lng]);
+                    marker.on('click', function(e) {
+                        //Show details in panel.
+                        showDetails(result);
+                    });
+                    historicalLayer.addLayer();
                 });
             });
 
@@ -125,7 +155,14 @@
                 //got the data. Loop and add to a marker group.
 
                 $.each(data.results, function(idx, result){
-                    businessLayer.addLayer(L.marker([result.geometry.location.lat, result.geometry.location.lng]));
+                    var marker = L.marker([result.geometry.location.lat, result.geometry.location.lng]);
+
+                    businessLayer.addLayer(marker);
+
+                    marker.on('click', function(e) {
+                        //Show details in panel.
+                        showDetails(result);
+                    });
                 });
             });
 
@@ -142,7 +179,13 @@
                 //got the data. Loop and add to a marker group.
 
                 $.each(data.results, function(idx, result){
-                    coLayer.addLayer(L.marker([result.geometry.location.lat, result.geometry.location.lng]));
+                    var marker = L.marker([result.geometry.location.lat, result.geometry.location.lng]);
+                    coLayer.addLayer(marker);
+
+                    marker.on('click', function(e) {
+                        //Show details in panel.
+                        showDetails(result);
+                    });
                 });
             });
 
@@ -150,6 +193,51 @@
 
             return coLayer;
         }
+
+        function showDetails(item){
+            //Take the item and show mini details
+            if(item){
+                var distance;
+                if(userLocation){
+                    distance = KmToMi(getDistanceFromLatLonInKm(userLocation.coords.latitude,userLocation.coords.longitude, item.geometry.location.lat,  item.geometry.location.lng));
+                }
+                var html = '<div class="mini-item"><div style="float:left;"><span class="mini-title">' + item.name + '</span><span class="mini-details"></span><span class="mini-distance">' + (distance ? (distance).toFixed(2) + " mi" : "") + '</span></div><div><div style="float:right;" class="item_details_link"><a href="/' + mode + '/' + item.id + '" type="button" class="btn btn-default">Details</a></div></div>';
+                $("#mini_details").html(html);
+            }
+        }
+
+
+            function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
+                var R = 6371; // Radius of the earth in km
+                var dLat = deg2rad(lat2-lat1);  // deg2rad below
+                var dLon = deg2rad(lon2-lon1);
+                var a =
+                                Math.sin(dLat/2) * Math.sin(dLat/2) +
+                                Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+                                Math.sin(dLon/2) * Math.sin(dLon/2)
+                        ;
+                var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+                var d = R * c; // Distance in km
+                return d;
+            }
+
+            function deg2rad(deg) {
+                return deg * (Math.PI/180)
+            }
+
+            function KmToMi(km) {
+                return km * .621371;
+            }
+
+
+            function getLocation() {
+                    if (navigator.geolocation) {
+                        navigator.geolocation.getCurrentPosition(function(position){
+                            userLocation = position;
+                        });
+                    }
+            }
+
 
     </script>
   </body>
