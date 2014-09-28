@@ -61,7 +61,7 @@ def create_app():
 	@app.route('/about')
 	def about():
 		print "about"
-		return render_template('index.html')
+		return render_template('about.html')
 
 
 	@app.route('/<Genre>/<ID>')
