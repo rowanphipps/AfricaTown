@@ -35,3 +35,15 @@ body{
 .map_list_toggle{
     margin: 10px 0;
 }
+
+.jumbotron{
+    background: url(/static/central_small.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron p {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+}
