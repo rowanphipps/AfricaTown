@@ -15,41 +15,48 @@
   </head>
 
   <body>
-  	<div class="container">
-      <nav class="navbar navbar-inverse" role="navigation">
-        <div class="navbar-header">
+
+  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsableSection">
-          <!-- <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".collapsableSection" type="button"> -->
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+              <!-- <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".collapsableSection" type="button"> -->
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
           </button>
 
 
           <a class="navbar-brand" href="{{ url_for('home') }}"><img src={{ url_for('static', filename='africatown_logo_horiz_white.png') }} height="35" ></a>
 
-        </div>
-
-        <div class="collapse navbar-collapse nav-item" id="collapsableSection">
-          <ul class="nav navbar-nav">
-            <!-- <li class="active"><a href="#">List</a></li> -->
-            
-            <li><a href="{{ url_for('community') }}">Community</a></li>
-            <li><a href="{{ url_for('businesses') }}">Business</a></li>
-            <li><a href="{{ url_for('history') }}">History</a></li>
-
-            <li><a href="{{ url_for('about') }}">About</a></li>
-            
-          </ul>
-        </div>
-      </nav>
-
-      <div class="jumbotron">
-        <h1>Hello, we are CD on the map</h1>
-        <p>this is what we do</p>
       </div>
 
+        <div class="collapse navbar-collapse nav-item" id="collapsableSection">
+
+          <ul class="nav navbar-nav">
+              <!-- <li class="active"><a href="#">List</a></li> -->
+
+              <li><a href="{{ url_for('community') }}">Community</a></li>
+              <li><a href="{{ url_for('businesses') }}">Business</a></li>
+              <li><a href="{{ url_for('history') }}">History</a></li>
+
+              <li><a href="{{ url_for('about') }}">About</a></li>
+
+          </ul>
+      </div>
+  </nav>
+
+  	<div class="container">
+
+
+      <!--<div class="jumbotron">-->
+        <!--<p style="color: #fff">Cultural business portal for Seattle's AfricaTown</p>-->
+      <!--</div>-->
+
+
+      <div class="featured_label" style="padding: 10px 15px;">
+      Featured Businesses
+      </div>
       <div class="list-group">
         {% for place in featured %}
           <a href="{{ url_for('.detail',  ID=place['id'], Genre='business')}}" class="list-group-item">
