@@ -48,12 +48,14 @@
       </div>
 
       <div class="list-group">
-        <a href="#" class="list-group-item">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <h4>Featured Buisness</h4>
-          <p>address</p>
-        </a>
-        <a href="#" class="list-group-item">
+        {% for place in featured %}
+          <a href="{{ url_for('.detail',  ID=place['id'], Genre=genre)}}" class="list-group-item">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <h4>{{ place['name'] }}</h4>
+            <p>{{ place['address'] }}</p>
+          </a>
+        {% endfor %}
+        <!-- <a href="#" class="list-group-item">
           <span class="glyphicon glyphicon-chevron-right"></span>
           <h4>Featured Community Organisation</h4>
           <p>address</p>
@@ -64,7 +66,7 @@
           <h4>Featured Event</h4>
           <p>address</p>
           <p>date/time</p>
-        </a>
+        </a> -->
       </div>
 
     </div>
