@@ -48,7 +48,9 @@
           {% if 'photo' in place.keys() %}
             <img id="detailImage" src="{{ url_for('static', filename=place['photo']) }}"  width="260">
           {% else %}
+            
             <img id="detailImage" src="{{ url_for('static', filename='catfishcorner.jpg') }}"  width="260">
+          
           {% endif %}
         </div>
       </div>
